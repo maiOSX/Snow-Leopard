@@ -1,4 +1,4 @@
-# Snow-Leopard
+# maiOSX Snow Leopard
 maiOSX Snow Leopard is the worlds most advanced tumblr "OS" using the latest web technologies to keep your life and files running across multiple devices at once featuring many many features too long to list here.
 
 Place both files in the tumblr theme editor
