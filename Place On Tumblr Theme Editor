@@ -11950,6 +11950,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#btn_id4").click(function(){
               $(".helloc").css({'display': 'none'});
+                $(".youtubebackground").css({'display': 'none'});
                $(".hellob").css({'display': 'block'});
                 $(".hellouser").css({'animation': 'slide-top 1s cubic-bezier(0.785, 0.135, 0.150, 0.860) reverse forwards','display': 'block'});
                   $(".hellofade").css({'display': 'none'});
