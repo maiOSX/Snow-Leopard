@@ -12000,6 +12000,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#btn_id7").click(function(){
         $(".hellob").css({'display': 'none'}); 
+        $(".orbstop").css({'display': 'none'}); 
         $(".youtubebackground").css({'display': 'none'});
         $(".helloc").css({'display': 'none'});
         $(".hellouser").css({'display': 'none'});
