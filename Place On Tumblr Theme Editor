@@ -216,6 +216,7 @@
       .resizer4 {display:none;}
        .resizer5 {display:none;}
          .resizer6 {display:none;}
+         .resizer7 {display:none;}
        .pong {display:none;}
          .pongheader {display:none;}
     
@@ -7005,6 +7006,26 @@ margin-left:10px;
     
     }
     
+     .resizer7 {  background:url('https://i.imgur.com/00eqdQH.png'); 
+  display:block;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 2px 40px 1px rgb(0 0 0 / 30%);
+    -webkit-backdrop-filter: blur(5px);
+    width: 10px;
+    background-size: contain;
+    height: 30px;
+    width:30px;
+   border:0px solid #000;
+    right: 0;
+    z-index: 9999;
+       top: 84.5%;
+    position: relative;
+    margin-right: 10px;
+    
+    }
+    
+    
+    
     
     
     .resizer:focus-visible   { outline: -webkit-focus-ring-color auto 0px;}
@@ -11975,6 +11996,31 @@ $(document).ready(function(){
      });
 });  
 </script>
+ <script type="text/javascript">
+$(document).ready(function(){
+    $("#btn_id7").click(function(){
+        $(".hellob").css({'display': 'none'}); 
+        $(".youtubebackground").css({'display': 'none'});
+        $(".helloc").css({'display': 'none'});
+        $(".hellouser").css({'display': 'none'});
+        $(".hellofade").css({'display': 'none'});
+        $(".qdialogpage").css({'display': 'none'});
+        $(".q").css({'display': 'none'});
+        $(".main").css({'backdrop-filter': 'blur(0px)',
+               '-webkit-backdrop-filter': 'blur(0px)',
+               'background':'rgba(0,0,0,0.5)'});
+        $(".searchcontainer2").css({'backdrop-filter': 'blur(0px)',
+               '-webkit-backdrop-filter': 'blur(0px)',
+               'background':'rgba(0,0,0,0.5)'});
+        $(".sidebar").css({'backdrop-filter': 'blur(0px)',
+               '-webkit-backdrop-filter': 'blur(0px)',
+               'background':'rgba(0,0,0,0.8)'});
+        $(".icon-bar").css({'backdrop-filter': 'blur(0px)',
+               '-webkit-backdrop-filter': 'blur(0px)',
+               'background':'rgba(0,0,0,0.5)'});
+     });
+});  
+</script>
 
 
 <script type="text/javascript">
@@ -13480,6 +13526,7 @@ MMXVII-MMXXIII
         	   </div>
   <div id="sidebuttons" class="sidebuttons">
       <button type="button" id="btn_id6" class="resizer6"></button>
+          <button type="button" id="btn_id7" class="resizer7"></button>
          <div id="class1" class="class1"></div>
          <div id="class2" class="class2"></div>    
          <div id="class3" class="class3"></div>
