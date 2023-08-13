@@ -1490,7 +1490,8 @@ font-family: Quicksand;
 }
 
         .post p {
-            font-size: 14px;    
+            
+         font-size: 14px;    
             line-height: 150%;
             padding-left: 15px; background-image: url(https://i.imgur.com/YdrCth1.png);
     background-size: 800px 456px;
@@ -1504,7 +1505,7 @@ font-family: Quicksand;
     background-repeat: no-repeat;
     background-position-x: center;
     max-height:214px; overflow: scroll;
-    word-break: break-word;      margin-bottom: -7px;
+    word-break: break-word;      margin-bottom: 10px;
             background-color: transparent;
             border-top-left-radius: 0px;
             border-top-right-radius: 0px;
@@ -1513,27 +1514,33 @@ font-family: Quicksand;
             color:#fff; opacity:100%; 
             font-family:Quicksand; 
             text-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+
 }
 
     .post p:hover { 
-background: none;
-    opacity: 100%;     
-    font-size: 14px;
+opacity: 100%;
+    font-size: 18px;
     line-height: 150%;
-    padding-left: 15px;         background: none;
+    padding-left: 15px;
     padding-right: 15px;
     letter-spacing: normal;
+    background: none;
     word-break: break-word;
     max-height: 100%;
     background-color: transparent !important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     text-align: center;
     color: #fff;
-    {block:IfCompactPosts}
-    overflow-y: scroll;
-    max-height: 635px;
-    {block:IfCompactPosts}
+    font-size: 14px;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
     font-family: Quicksand;
-    text-shadow: 0px 2px 4px rgba(0, 0, 0,0.5);
+    text-shadow: 0px 2px 4px rgba(0, 0, 0,0.9);
+}
+
 
 }
 
@@ -12568,7 +12575,7 @@ and it is currently  <div class="datetime">
  <div id="qa" class="qa" style="
     margin-top: 50px;
 ">
- <a href="https://play.geforcenow.com/mall/#/layout/games">Game</a>, <a href="https://maiosx.com/search/music">Listen to music</a>, <a href="https://m.manganelo.com/genre-all/2">read manga</a>, <a href="https://www.crunchyroll.com/">watch anime</a>, <a href="https://twitter.com/archillect">browse archillect</a>, <a href="https://maiosx.com/search/movies">see movie trailers</a>, <a href="https://maiosx.com/search/anime">look at anime art</a>, <a href="https://twitter.com/i/lists/1455666589530038276">see the list</a>, <a href="https://www.youtube.com/feed/subscriptions">watch youtube</a>, <a href="https://www.twitch.tv/">see livestreams</a>, <a href="https://www.discord.com/app">chat</a>,<a href="https://www.joyland.ai"> talk to AI</a>,<a href="https://www.google.com"> make a search</a>, or<a href="https://discord.com/channels/1002292111942635562/"> diffuse</a>...</p>
+ <a href="https://play.geforcenow.com/mall/#/layout/games">Game</a>, <a href="https://maiosx.com/search/music">Listen to music</a>, <a href="https://m.manganelo.com/genre-all/2">read manga</a>, <a href="https://www.crunchyroll.com/">watch anime</a>, <a href="https://twitter.com/archillect">browse archillect</a>,<a href="https://twitter.com/picturesfoider"> look at picturesfolder</a>,<a href="https://maiosx.com/search/movies">see movie trailers</a>, <a href="https://maiosx.com/search/anime">look at anime art</a>, <a href="https://twitter.com/i/lists/1455666589530038276">see the list</a>, <a href="https://www.youtube.com/feed/subscriptions">watch youtube</a>, <a href="https://www.twitch.tv/">see livestreams</a>, <a href="https://www.discord.com/app">chat</a>,<a href="https://www.joyland.ai"> talk to AI</a>,<a href="https://www.google.com"> make a search</a>, or<a href="https://discord.com/channels/1002292111942635562/"> diffuse</a>...</p>
  </div>
  <div id="divx2" class="divx2">
     <img class="bottom" src="https://i.imgur.com/n5w6LdS.png">
