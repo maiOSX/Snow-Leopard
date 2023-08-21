@@ -153,7 +153,7 @@
         
         <style type="text/css"> 
     
-
+.post p { overflow: initial !important;}
 
          .about {display:none; font-family:'Quicksand'; font-size:20px;color:white;}
         .cornerbutton {display: none;
@@ -5982,7 +5982,7 @@ transition: ease-out 4s;position:relative;z-index:9999;
 
 @media screen and (min-width:490px) {
     
-     
+     .post p { overflow: initial;}
 
     .sidebar-link {display:none;}
     .about {display:block; font-family:'Quicksand'; font-size:20px;    padding-left: 10px;     padding-right: 10px;
