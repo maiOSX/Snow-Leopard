@@ -644,7 +644,7 @@ div.npf-link-block.no-poster .title {
             pointer-events:all; 
             
             animation:fadeIn 3s;
-            background:url('{image:miniwallpaper}');
+            background:url('{image:statusbackground}');
       }
       
     /*  .hello:hover { display:block; margin:0 auto; left:0; top:0;
@@ -1579,11 +1579,8 @@ opacity: 100%;
 			padding-left: 20px;
         }
         .post blockquote {
-			font-size: 14px;
-			padding: 0 8px;
-			margin: 20px 0;
-			font-style: italic;
-		
+    margin: 0;
+    margin-left: 0px;
 		
 			
         }
@@ -1881,6 +1878,7 @@ border:1px solid rgba(255,255,255,0.4); padding-bottom:13px;
     max-height: 110px;
     overflow-y: scroll;
     padding-right: 15px;
+        margin-top: 382px;
 }
 
 .textsm2box {   
@@ -5472,27 +5470,39 @@ font-family: Spartan;
             .msg a {  color:white;
             }
             
-.fig1mobile {   opacity: 100%;
-    
-    width: 456px;min-width: 456px;
-    max-width: 460px;
-    height: auto; 
+.fig1mobile {      opacity: 100%;
+    width: 456px;
+    min-width: 456px;
+    max-width: fit-content;
+    height: auto;
     margin-top: 22px;
     padding-left: 20px;
     margin-left: -20px;
-    min-width: 45px; 
+    min-width: 45px;
     margin-bottom: -178px;
 }
 .fig1mobiletext {
-    font-family: 'Quicksand'; 	border:1px solid {color:postsaborder};
-    font-size: 34px; text-shadow: 0px 2px 4px rgba(0,0,0,0.9);
-    padding: 20px;
+   	border:1px solid {color:postsaborder};
+  
     background-image: url('{image:StatusBackground}');
-    height: 370px;
    
+    
+    font-family: 'Quicksand';
+  
+    font-size: 34px;
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.9);
+    padding: 20px;
+  
+    height: 716px;
     border-radius: 15px;
     margin-top: 12px;
-    background-size: cover;
+    background-size: contain;
+    background-position-x: center;
+    background-size: 122%;
+    background-repeat-x: no-repeat;
+  
+    width: 416px;
+    
 }
 .fig1mobiletext2 {
     font-family: 'Quicksand';
@@ -6522,7 +6532,7 @@ animation:fadeIn 7s;
     
 
 @media screen and (min-width:1245px) { 
-    
+    .post p { overflow: initial;}
     .cpopholder {  width: 90px;
     display: block;
     position: fixed;
@@ -7062,7 +7072,7 @@ margin-left:10px;
     width: 256px;
     height: 256px;
     margin-left: 225px;
-    transform: scale(0.09);    margin-top: -95px;
+    transform: scale(0.09);    margin-top: -95px; 
     }
     .capcutcloud1 {display:block; width:256px; height:256px;display: block;
     width: 256px;
@@ -7082,9 +7092,26 @@ margin-left:10px;
 .calendarbar a:hover {color:white;margin-right:10px;display:inline-flex;border-radius:15px;padding:10px; background:rgba(0,0,0,0.5);    }
     .permalink.page .post-content div.npf_row .npf_col figure img, .post div.npf_row .npf_col figure img, body div.npf_row .npf_col figure img
     {
-        z-index:9;position:relative;
+        z-index:9;position:relative;     margin-bottom: 4px;
         
     }
+    
+    .post-content div.npf_row .npf_col:only-child, .post-content div.npf_row figure.tmblr-full:only-child, .post div.npf_row .npf_col:only-child, .post div.npf_row figure.tmblr-full:only-child, body div.npf_row .npf_col:only-child, body div.npf_row figure.tmblr-full:only-child {
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 15px;
+    margin: 0;
+    width: 457px;
+    }
+    
+    .post-content div.npf_row .npf_col:last-child, .post-content div.npf_row figure.tmblr-full:last-child, .post div.npf_row .npf_col:last-child, .post div.npf_row figure.tmblr-full:last-child, body div.npf_row .npf_col:last-child, body div.npf_row figure.tmblr-full:last-child {
+    padding-right: 0;
+    margin: 0px;
+    display: contents;
+}
+
+
+    
     .hellofade {display:block;}
 .romok {display:block;}
     div.npf-link-block.no-poster .title {
@@ -7931,7 +7958,20 @@ padding-top:29px !important;
 .permalink.page .post-content div.npf_row .npf_col figure img, .post div.npf_row .npf_col figure img, body div.npf_row .npf_col figure img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover;     margin-bottom: 4px;
+}
+
+.post-content div.npf_row .npf_col:only-child, .post-content div.npf_row figure.tmblr-full:only-child, .post div.npf_row .npf_col:only-child, .post div.npf_row figure.tmblr-full:only-child, body div.npf_row .npf_col:only-child, body div.npf_row figure.tmblr-full:only-child {
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 15px;
+    margin: 0;
+    width: 457px;}
+    
+    .post-content div.npf_row .npf_col:last-child, .post-content div.npf_row figure.tmblr-full:last-child, .post div.npf_row .npf_col:last-child, .post div.npf_row figure.tmblr-full:last-child, body div.npf_row .npf_col:last-child, body div.npf_row figure.tmblr-full:last-child {
+    padding-right: 0;
+    margin: 0px;
+    display: contents;
 }
     
     #openMenu {
@@ -12521,7 +12561,7 @@ document.addEventListener('click', function (event) {
 <script>
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
 </script>
-<a class="weatherwidget-io" href="https://forecast7.com/en/35d69139d69/tokyo/?unit=us" data-label_1="TOKYO" data-theme="original" data-basecolor="rgba(255, 255, 255, 0)" >TOKYO</a>
+<a class="weatherwidget-io" href="https://forecast7.com/en/41d99n88d69/sycamore/?unit=us" data-label_1="SYCAMORE" data-theme="original" data-basecolor="rgba(31, 86, 124, 0)" >SYCAMORE</a>
 <script>
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
 </script>
@@ -12575,7 +12615,7 @@ and it is currently  <div class="datetime">
  <div id="qa" class="qa" style="
     margin-top: 50px;
 ">
- <a href="https://play.geforcenow.com/mall/#/layout/games">Game</a>, <a href="https://maiosx.com/search/music">Listen to music</a>, <a href="https://m.manganelo.com/genre-all/2">read manga</a>, <a href="https://www.crunchyroll.com/">watch anime</a>, <a href="https://twitter.com/archillect">browse archillect</a>,<a href="https://twitter.com/picturesfoider"> look at picturesfolder</a>,<a href="https://maiosx.com/search/movies">see movie trailers</a>, <a href="https://maiosx.com/search/anime">look at anime art</a>, <a href="https://twitter.com/i/lists/1455666589530038276">see the list</a>, <a href="https://www.youtube.com/feed/subscriptions">watch youtube</a>, <a href="https://www.twitch.tv/">see livestreams</a>, <a href="https://www.discord.com/app">chat</a>,<a href="https://www.joyland.ai"> talk to AI</a>,<a href="https://www.google.com"> make a search</a>, or<a href="https://discord.com/channels/1002292111942635562/"> diffuse</a>...</p>
+ <a href="https://play.geforcenow.com/mall/#/layout/games">Game</a>, <a href="https://maiosx.com/search/music">Listen to music</a>, <a href="https://m.manganelo.com/genre-all/2">read manga</a>, <a href="https://www.crunchyroll.com/">watch anime</a>, <a href="https://twitter.com/archillect">browse archillect</a>,<a href="https://twitter.com/picturesfoider"> look at picturesfolder</a>,<a href="https://maiosx.com/search/movies"> see movie trailers</a>, <a href="https://maiosx.com/search/anime">look at anime art</a>, <a href="https://twitter.com/i/lists/1455666589530038276">see the good sports list</a>, <a href="https://twitter.com/i/lists/1671855418920796160">see the bad sports list</a>, <a href="https://www.youtube.com/feed/subscriptions">watch youtube</a>, <a href="https://www.twitch.tv/">see livestreams</a>, <a href="https://www.discord.com/app">chat</a>,<a href="https://www.joyland.ai"> talk to AI</a>,<a href="https://www.google.com"> make a search</a>, or<a href="https://discord.com/channels/1002292111942635562/"> diffuse</a>...</p>
  </div>
  <div id="divx2" class="divx2">
     <img class="bottom" src="https://i.imgur.com/n5w6LdS.png">
@@ -12656,6 +12696,7 @@ and it is currently  <div class="datetime">
   <li><a href="https://www.pinterest.com/ioxwave/">Pinterest</a></li>
   <li><a href="https://photos.app.goo.gl/8JMm86K2Jid2v2848">Apple Archive</a></li>
   <li><a href="http://blackjackosx.netlify.app">Blackjack</a></li>
+   <li><a href="http://nodoom.app">Nodoom</a></li>
 </ul>
     
    
@@ -14337,17 +14378,17 @@ id="youtube-audio">
 
     var greet;    
     if (hrs < 5) 
-        greet = 'Still up, huh?';  
+        greet = 'Its sleepy hours, what are you doing up?';  
     else if (hrs >= 5 && hrs <= 12)
-        greet = 'Good Morning,';
+        greet = 'Good morning';
     else if (hrs >= 12 && hrs <= 17)
-        greet = 'Good Afternoon,';
+        greet = 'Good Afternoon ';
         
     else if (hrs >= 17 && hrs <= 24)
-        greet = 'Good Evening,';
+        greet = '';
         
     else if (hrs >= 22 && hrs <= 24)
-        greet = 'Goodnight,';
+        greet = 'Goodnight';
         
  
     document.getElementById('lblGreetings').innerHTML =
