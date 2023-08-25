@@ -1493,7 +1493,7 @@ font-family: Quicksand;
             
          font-size: 14px;    
             line-height: 150%;
-            padding-left: 15px; background-image: url(https://i.imgur.com/YdrCth1.png);
+            padding-left: 15px;
     background-size: 800px 456px;
     background-position-y: 100px;
     background-repeat: no-repeat;
@@ -8059,7 +8059,7 @@ animation:fadeIn 7s;
      .post p { transition:ease-in 200ms;}
      
       .post p:hover { 
-background-image: url(https://i.imgur.com/YdrCth1.png);
+
     background-size: 800px 456px;
            background: none;
     background-repeat: no-repeat;     background-position-y: 23px;
@@ -8102,7 +8102,7 @@ background-image: url(https://i.imgur.com/YdrCth1.png);
    
     -webkit-animation: slide 0.5s cubic-bezier(0.785, 0.135, 0.150, 0.860) reverse forwards;
 	        animation: slide 0.5s cubic-bezier(0.785, 0.135, 0.150, 0.860) reverse forwards;
-   z-index: 9;
+   z-index: 999999;
 }
             
     	.toggle4 { 
@@ -8872,12 +8872,12 @@ border:1px solid rgba(255,255,255,0.9); }
     
     
 
-    {/block:IfPortraitDesktopBG}
-     
-      .helloc {display:block;background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(15,57,243,1) 50%, rgba(196,31,255,1) 100%);width:100%; position:fixed;opacity:50%; height: 101.6%;
+   /*move if portraitdesktopbg line here to add gradient again */
+        {/block:IfPortraitDesktopBG}
+      .helloc {display:block;background: linear-gradient(180deg, rgba(0,0,255,0.3309698879551821) 0%, rgba(0,0,0,0.35057773109243695) 100%);width:100%; position:fixed;opacity:50%; height: 101.6%; 
     z-index: 99;   margin-top:-16px;}
     
-      
+  
       
       
      .hello { display:block; width:100%; height:100%;  margin: 0 auto; top:0; left: 0;  background-size:cover;    opacity: 1.0 !important; background-image: url('{image:Wallpaper}'); position:fixed; z-index:-90000;
@@ -9846,7 +9846,7 @@ text set in the data-text attribute. */
             line-height: 150%;
             padding-left: 15px; margin-bottom:10px;
             padding-right: 15px;    
-    letter-spacing: normal;  background-image: url(https://i.imgur.com/YdrCth1.png);
+    letter-spacing: normal;
     max-height:214px;   background-size: 800px 456px;
         background-position-y: 23px;
     background-repeat: no-repeat;
@@ -13533,18 +13533,18 @@ MMXVII-MMXXIII
           
           
              <div class="launchericon2">
-              <a href="https://www.instagram.com"  onclick="window.open('https://www.instagram.com/', 
+              <a href="https://vscode.dev/"  onclick="window.open('https://vscode.dev/', 
                          'newwindow22', 
                          'width=917,height=832'); 
               return false;">
-<img src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_640.jpg" >
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" >
 </a>
               
           </div>
-          <div class="label"><a href="https://www.instagram.com"  onclick="window.open('https://www.instagram.com', 
+          <div class="label"><a href="https://www.vscode.dev"  onclick="window.open('https://www.vscode.dev', 
                          'newwindow22', 
                          'width=917,height=832'); 
-              return false;">Instagram</a></div>
+              return false;">VSCode</a></div>
           
           
                                                      </div>
@@ -14385,7 +14385,7 @@ id="youtube-audio">
         greet = 'Good Afternoon ';
         
     else if (hrs >= 17 && hrs <= 24)
-        greet = '';
+        greet = 'Good Evening';
         
     else if (hrs >= 22 && hrs <= 24)
         greet = 'Goodnight';
@@ -15059,7 +15059,7 @@ Your browser does not support inline frames or is currently configured not to di
          	<img alt="Spotify" src="https://discordemoji.com/assets/emoji/1754_Chika_Dance.gif"
          	width=55" height="55">️<a></div>
         <div class="dockh5">
-        		<a href="https://www.instagram.com"  onclick="window.open('https://www.instagram.com', 
+        		<a href="https://www.vscode.dev"  onclick="window.open('https://www.vscode.dev', 
                          'newwindow6', 
                          'width=917,height=832'); 
               return false;">
