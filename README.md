@@ -6,6 +6,6 @@ Place both files in the tumblr theme editor for installation and usage
 This code has been a work in progress for many many years and is being given to users as freeware for tumblr enjoyers. It has no tracking scripts at all, no spyware, nothing but the java required to run the applets, coloris engine, and widgets.
 
 
-Documentation
+Documentation</br>
 http://tinyurl.com/maiosxdocumentation
 
