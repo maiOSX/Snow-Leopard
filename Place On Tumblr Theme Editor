@@ -5,7 +5,7 @@
          //*  <script type="text/javascript">
    window.location.replace("http://twitter.com/archillect"); 
    </script> *//
-            
+             
                                Mai OS X                    
                                                      
                         //for youtube effects toggle blur on main or rewrite the code so that posts are above the effect//  
@@ -50,6 +50,26 @@
         <meta name="text:Logo2MarginTop" content=""/>
         <meta name="text:MainText" content=""/>
         <meta name="text:YourMainURL" content=""/>
+              <meta name="text:DOCKURL1" content=""/>
+               <meta name="text:DOCKURL2" content=""/>
+                <meta name="text:DOCKURL3" content=""/>
+                 <meta name="text:DOCKURL4" content=""/>
+                  <meta name="text:DOCKURL5" content=""/>
+                   <meta name="text:DOCKURL6" content=""/>
+                    <meta name="text:DOCKURL7" content=""/>
+                     <meta name="text:DOCKURL8" content=""/>
+                      <meta name="text:DOCKURL9" content=""/>
+                       <meta name="text:DOCKURL10" content=""/>
+                        <meta name="text:DOCKURL11" content=""/>
+                         <meta name="text:DOCKURL12" content=""/>
+                          <meta name="text:DOCKURL13" content=""/>
+                           <meta name="text:DOCKURL14" content=""/>
+                            <meta name="text:DOCKURL15" content=""/>
+                             <meta name="text:DOCKURL16" content=""/>
+                              <meta name="text:DOCKURL17" content=""/>
+                               <meta name="text:DOCKURL18" content=""/>
+                                <meta name="text:DOCKURL19" content=""/>
+                                 <meta name="text:DOCKURL20" content=""/>
         <meta name="text:Your1SearchTag" content=""/>\
        <meta name="description" content="maiOSX is the world's most advanced social operating system powered by tumblr.">
         <meta name="text:About" content=""/>
@@ -65,6 +85,26 @@
         <meta name="image:Wallpaperoverlay" content="">
         <meta name="image:Logo" content="">
         <meta name="image:Logo2" content="">
+           <meta name="image:DOCKURL1Image" content="">
+           <meta name="image:DOCKURL2Image" content="">
+                 <meta name="image:DOCKURL3Image" content="">
+                    <meta name="image:DOCKURL4Image" content="">
+                       <meta name="image:DOCKURL5Image" content="">
+                          <meta name="image:DOCKURL6Image" content="">
+                             <meta name="image:DOCKURL7Image" content="">
+                               <meta name="image:DOCKURL8Image" content="">
+              <meta name="image:DOCKURL9Image" content="">
+                 <meta name="image:DOCKURL10Image" content="">
+                    <meta name="image:DOCKURL11Image" content="">
+                       <meta name="image:DOCKURL12Image" content="">
+                          <meta name="image:DOCKURL13Image" content="">
+                             <meta name="image:DOCKURL14Image" content="">
+                              <meta name="image:DOCKURL15Image" content="">
+                 <meta name="image:DOCKURL16Image" content="">
+                    <meta name="image:DOCKURL17Image" content="">
+                       <meta name="image:DOCKURL18Image" content="">
+                          <meta name="image:DOCKURL19Image" content="">
+                             <meta name="image:DOCKURL20Image" content="">
         <meta name="image:StatusBackground" content="">
         <meta name="if:ShowYouTubeBackground" content=""/>
         <meta name="if:ShowYouTubeEffect" content=""/>
@@ -152,10 +192,55 @@
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
         
         <style type="text/css"> 
+        
+        .newdockbg
+{width:90%;background:deepskyblue;bottom:0px;position:fixed;height:110px;left:5%;}
+.iconsholder
+{    width: 1000px;
+    height: 87px; padding-left: 15px;
+    background: rgba(0,0,0,0.5);padding-right: 15px;
+  margin-left: -30px;
+    position: relative;     box-shadow: 0px 2px 20px 1px rgb(66 245 230/ 50%);
+    bottom: 140px !important;
+    overflow-x: scroll; backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);
+    display: -webkit-inline-box;
+    border-radius: 15px; transition:200ms;
+    border: 1px solid rgba(255,255,255,0.5);}
     
-.post p { overflow: initial !important;}
+    .iconsholder:hover
+{    width: 1000px;
+    height: 87px; padding-left: 15px;
+    background: rgba(0,0,0,0.4);
+  margin-left: -30px;
+    position: relative;     box-shadow: 0px 2px 5px 1px rgb(66 245 230/ 50%);
+    bottom: 140px !important; transition:200ms;
+    overflow-x: scroll; backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);
+    display: -webkit-inline-box;
+    border-radius: 15px;
+    border: 1px solid rgba(66, 245, 230,1.0);}
+.icon
+{height:64px;width:64px;background:white; margin-left:11px;margin-top:11px;margin-right:10px;border-radius:150px; transition:200ms;
+margin-bottom:10px;     box-shadow: 0px 0px 2px 1px rgb(255 255 255/ 100%); border: 1px solid rgba(255,255,255,0.2);} 
+
+.icon:hover
+{height:64px;width:64px;background:white; margin-left:11px;margin-top:11px;margin-right:10px;border-radius:150px; transition:200ms; border: 1px solid rgba(255,255,255,0.4);
+margin-bottom:10px; box-shadow: 0px 0px 20px 1px rgb(66 245 230/ 100%);}
+::-webkit-scrollbar {
+    display: none;}
+
+.icon a img {display:block;;border-radius:150px;display: block;
+    height: 64px;
+    width: 64px;
+
+    margin-left: -1px !important;
+    margin-top: -1px !important;}
+
+
+    
+.post p { overflow: scroll !important;} 
 
          .about {display:none; font-family:'Quicksand'; font-size:20px;color:white;}
+          
         .cornerbutton {display: none;
     bottom: 0;
     right: 0;
@@ -287,7 +372,14 @@
 .poll-post a.poll-row:hover {background-color: rgba(255,255,255,0.6) !important;margin-left: 10px;
     margin-right: 10px;
     width: 90%;}
-p.npf_quote {font-style:italic; font-family:'Quicksand' !important; font-size:24px !important;}
+p.npf_quote {font-style:italic; font-family:'Quicksand' !important; font-size:18px !important;background:rgba(0,0,0,0.6) !important; border-radius:15px !important;animation:pulse 2s infinite !important;     margin-top: 0px !important;text-align:left !important;padding-top:5px;padding-bottom:5px;}
+p.z1 {font-style:italic; font-family:'Quicksand' !important; font-size:24px !important;background:rgba(0,0,0,0.6) !important; border-radius:15px !important;animation:pulse 2s infinite !important;}
+p.z2 {font-style:italic; font-family:'Quicksand' !important; font-size:24px !important;background:yellow !important; border-radius:15px !important;animation:pulse 2s infinite !important;}
+p.z3 {font-style:italic; font-family:'Quicksand' !important; font-size:24px !important;background:deeppink !important; border-radius:15px !important;animation:pulse 2s infinite !important;}
+p.z4 {font-style:italic; font-family:'Quicksand' !important; font-size:24px !important;background:red !important; border-radius:15px !important;animation:pulse 2s infinite !important;}
+p.z5 {font-style:italic; font-family:'Quicksand' !important; font-size:24px !important;background:green !important; border-radius:15px !important;animation:pulse 2s infinite !important;}
+p.z6 {font-style:italic; font-family:'Quicksand' !important; font-size:24px !important;background:purple !important; border-radius:15px !important;animation:pulse 2s infinite !important;}
+p.z7 {font-style:italic; font-family:'Quicksand' !important; font-size:24px !important;background:silver !important; border-radius:15px !important;animation:pulse 2s infinite !important;}
 
 .npf_quote {font-style:italic; font-family:'Quicksand' !important; font-size:24px !important;}
 
@@ -977,10 +1069,19 @@ div.npf-link-block.no-poster .title {
             text-decoration: none;
         }
         
-        h1,h2,h3,h4,h5,h6 {
+        h1{
             font-family: 'Quicksand', Arial, sans-serif;
             font-weight: normal;
+            background:yellow;
         }
+        
+           h1{
+            font-family: 'Quicksand', Arial, sans-serif;
+            font-weight: normal;
+            background:lightblue;
+        }
+        
+        
         
         .blog-title, .blog-title:hover {
             color: {color:Title};
@@ -1456,15 +1557,18 @@ font-family: Quicksand;
 
 
         
-        .post h1, .post h2, .post h3, .post h4, .post h5, .post h6 {
+        .post h1 {
             font-size: 14px;
     display: table-caption;
     border-radius: 15px;
     width: 446px;font-weight:bold;
     word-break: initial;
    color:white;
+      background:yellow !important;
+   position:relative;
+   z-index:99999999;
         text-shadow: 0px 2px 4px rgb(0 0 0 / 40%);
-    text-align: center; 
+    text-align: center;  
 
     font-family:'Quicksand';
     line-height: 28px;
@@ -1479,7 +1583,9 @@ font-family: Quicksand;
     border-radius: 15px;
     width: 446px;font-weight:bold;
     word-break: initial;
-   
+   background:lightblue !important;
+   position:relative;
+   z-index:99999999;
         text-shadow: 0px 2px 4px rgb(0 0 0 / 40%);
     text-align: center; 
 
@@ -1586,18 +1692,14 @@ opacity: 100%;
         }
         
         blockquote.twitter-tweet {
-            margin-top: -15px;
-            margin-bottom: 15px;
-            padding-top: 15px;
-            padding-bottom: 30px;
-            line-height: normal;
-            position: center;
-            border-radius: 15px;
-            border-left-color: black;
-            background:black;
-            animation: pulse 2s infinite;
-            border:black;
-            margin-bottom:-15px;
+     margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    line-height: normal;
+    position: center;
+    border-radius: 15px;
+    background: rgba(0,0,0,0.5);
+    animation: pulse 2s infinite;
             
 			}
         .post figure {
@@ -3837,7 +3939,7 @@ border-bottom-right-radius: 15px;
  
     width: 100%;
     opacity:0%;
-    height: 55px;
+    height: 0px;
     border-radius: 0 0 15px 0;
     -webkit-transition: top 0.1s ease-in;
     cursor: pointer;
@@ -4893,10 +4995,10 @@ font-family: Spartan;
     font-size: 20px;
     margin-left: -40px;
     margin-top: 0px;}
-     .minipc {height:645px; width:456px; background:url(https://i.imgur.com/3pNhITX.png);  background-size: 456px 645px; position:absolute;     top: -1px;
+     .minipc {height:645px; width:456px; background:url(https://i.imgur.com/tJ5LrtD.png);  background-size: 456px 645px; position:absolute;     top: -1px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;}
-      .minipc:hover {height:645px; width:456px; background:url(https://i.imgur.com/3pNhITX.png);  background-size: 456px 645px; position:absolute;     top: -1px;
+      .minipc:hover {height:645px; width:456px; background:url(https://i.imgur.com/tJ5LrtD.png);  background-size: 456px 645px; position:absolute;     top: -1px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;}
      
@@ -5988,6 +6090,8 @@ transition: ease-out 4s;position:relative;z-index:9999;
     .about {display:block; font-family:'Quicksand'; font-size:20px;    padding-left: 10px;     padding-right: 10px;
     width: 280px;
     padding-top: 10px;}
+    
+       .about a {font-family:'Quicksand'; font-size:20px;color:white;text-align:center;}
     .hellofade {display:none;}
 .romok {display:none;}
     .miniboxcontainer {
@@ -6532,6 +6636,10 @@ animation:fadeIn 7s;
     
 
 @media screen and (min-width:1245px) { 
+    
+    .permalink-page .hellob {background:url('{image:Wallpaper}');
+            background-size: cover;     background-position: 50%;    transform: scale(1.0);
+    } 
     .post p { overflow: initial;}
     .cpopholder {  width: 90px;
     display: block;
@@ -7201,7 +7309,7 @@ margin-left:10px;
     z-index: 999;
     height: 261px;
     width: 861px;
-    background-image: url(https://i.imgur.com/t8ava5Y.png);
+    background-image: url(https://i.imgur.com/64kyZYy.png);
     font-style: italic;
     line-height: 300%;
     margin-bottom: 1px;
@@ -7211,7 +7319,7 @@ margin-left:10px;
     animation-name: floating;
     padding-left: 50px;
     padding-right: 50px;
-   margin-top: -259px;
+   margin-top: -258px;
     justify-items: center;
 }
 
@@ -7241,7 +7349,7 @@ margin-left:10px;
     z-index: 9999;
     height: 261px;
     width: 861px;
-    background-image: url(https://i.imgur.com/t8ava5Y.png);
+    background-image: url(https://i.imgur.com/64kyZYy.png);
     font-style: italic;
     line-height: 300%;
     margin-bottom: 1px;
@@ -7251,7 +7359,7 @@ margin-left:10px;
     animation-name: floating;
     padding-left: 50px;
     padding-right: 50px;
-margin-top: -259px;
+margin-top: -258px;
     justify-items: center;
 }
 
@@ -7389,7 +7497,7 @@ margin-top: -259px;
     z-index: 999;
     height: 261px;
     width: 861px;
-    background-image: url(https://i.imgur.com/t8ava5Y.png);
+    background-image: url(https://i.imgur.com/64kyZYy.png);
     font-style: italic;
     line-height: 300%;
     margin-bottom: 1px;
@@ -7399,7 +7507,7 @@ margin-top: -259px;
     animation-name: floating;
     padding-left: 50px;
     padding-right: 50px;
-  margin-top: -259px;
+  margin-top: -258px;
     justify-items: center;
 }
 
@@ -7429,7 +7537,7 @@ margin-top: -259px;
     z-index: 9999;
     height: 261px;
     width: 861px;
-    background-image: url(https://i.imgur.com/t8ava5Y.png);
+    background-image: url(https://i.imgur.com/64kyZYy.png);
     font-style: italic;
     line-height: 300%;
     margin-bottom: 1px;
@@ -7439,7 +7547,7 @@ margin-top: -259px;
     animation-name: floating;
     padding-left: 50px;
     padding-right: 50px;
-    margin-top: -259px;
+    margin-top: -258px;
     justify-items: center;
 }
 
@@ -7880,6 +7988,7 @@ padding-top:29px !important;
     height: 100%;
     width: 78px;
     bottom: 0px;
+    margin-left:-103px;
     background: rgba(0,0,0,0.2);
     border-right: 1px solid rgba(255,255,255,0.2);}
 
@@ -8027,7 +8136,7 @@ animation:fadeIn 7s;
     margin-right: 10px;
     z-index: 2;
     position: relative;
-    margin-top: 194px;
+    margin-top: 266px;
     border-top: solid 1px rgba(255,255,255,0.1);
     padding-top: 15px;
 }
@@ -8102,7 +8211,7 @@ animation:fadeIn 7s;
    
     -webkit-animation: slide 0.5s cubic-bezier(0.785, 0.135, 0.150, 0.860) reverse forwards;
 	        animation: slide 0.5s cubic-bezier(0.785, 0.135, 0.150, 0.860) reverse forwards;
-   z-index: 999999;
+   z-index: 99;
 }
             
     	.toggle4 { 
@@ -8874,7 +8983,7 @@ border:1px solid rgba(255,255,255,0.9); }
 
    /*move if portraitdesktopbg line here to add gradient again */
         {/block:IfPortraitDesktopBG}
-      .helloc {display:block;background: linear-gradient(180deg, rgba(0,0,255,0.3309698879551821) 0%, rgba(0,0,0,0.35057773109243695) 100%);width:100%; position:fixed;opacity:50%; height: 101.6%; 
+      .helloc {display:block;background: linear-gradient(180deg, rgba(0,0,0,0.3309698879551821) 0%, rgba(0,0,0,0.35057773109243695) 100%);width:100%; position:fixed;opacity:50%; height: 101.6%; 
     z-index: 99;   margin-top:-16px;}
     
   
@@ -9171,8 +9280,8 @@ background: rgba(0,0,0,0.0);
      transition: ease-in .001ms;
 }
  
-   .toggle8 {width: 100%;
-   
+   .toggle8 {width: 90%;
+   left:5%;
 
     letter-spacing:8px;    box-shadow: 0px 2px 40px 1px rgb(66 245 23 / 0%);
     font-family:Helvetica;       -webkit-backdrop-filter: blur(0px);
@@ -9183,13 +9292,12 @@ background: rgba(0,0,0,0.0);
    
  z-index:9998; 
 
-height:125px;
-  width:100%;
+height:110px;
 
-bottom:0;
-left:0;
+
+    bottom: 10px;
 position:fixed !important;
-
+border-radius:15px; 
 
     font-style:italic;
     line-height: 300%;
@@ -9199,8 +9307,8 @@ position:fixed !important;
     transition: ease-in .7s;
 }
  
- 	.toggle8:hover { width: 100%;
-   
+ 	.toggle8:hover { width: 90%;
+   left:5%;
 
     letter-spacing:8px;    box-shadow: 0px 2px 20px 1px rgb(66 245 230/ 50%);
     font-family:Helvetica;       -webkit-backdrop-filter: blur(7px);
@@ -9210,11 +9318,10 @@ position:fixed !important;
     font-size:20px; 
 
     z-index:9998; 
-height:125px;
-  width:100%;
+height:110px;
+border-radius:15px;
+    bottom: 10px;
 
-bottom:0;
-left:0;
 position:fixed !important;
 
 
@@ -10054,7 +10161,7 @@ margin-right:5px;
     z-index: 1;
     height: 261px;
     width:861px;
-    background-image: url('https://i.imgur.com/t8ava5Y.png') ;
+    background-image: url('https://i.imgur.com/64kyZYy.png') ;
     font-style:italic;
     line-height: 300%;
     margin-bottom:1px;
@@ -10064,7 +10171,7 @@ margin-right:5px;
     animation-name: floating;
     padding-left: 50px; 
     padding-right: 50px;
-    margin-top:-97px; }
+    margin-top:-96px; }
     
     
     
@@ -10113,7 +10220,7 @@ margin-top:200px;
     z-index: 1;
     height: 261px;
     width:861px;
-    background-image: url('https://i.imgur.com/t8ava5Y.png') ;
+    background-image: url('https://i.imgur.com/64kyZYy.png') ;
     font-style:italic;
     line-height: 300%;
     margin-bottom:1px;
@@ -10123,7 +10230,7 @@ margin-top:200px;
     animation-name: floating;
     padding-left: 50px;
     padding-right: 50px;
-    margin-top:-97px; }
+    margin-top:-96px; }
     
     	.toggle3 { width: 100%;
     display: flex;
@@ -10142,7 +10249,7 @@ margin-top:200px;
     z-index:9999999999999999999999999999999999;
     height: 125px;
     width:861px;
-    background-image: url('https://i.imgur.com/t8ava5Y.png');
+    background-image: url('https://i.imgur.com/64kyZYy.png');
     font-style:italic;
     line-height: 300%;
     margin-bottom:1px;
@@ -10180,7 +10287,7 @@ margin-top:200px;
     z-index: 99;
     height: 125px;
     width:861px;
-    background-image: url('https://i.imgur.com/t8ava5Y.png');
+    background-image: url('https://i.imgur.com/64kyZYy.png');
     font-style:italic;
     line-height: 300%;
     margin-bottom:1px;
@@ -10297,9 +10404,9 @@ margin-top:200px;
     letter-spacing:2px;
     font-family:Helvetica;
     background-size: cover !important;
-    background-position-y:-59px !important;
+   
     padding-left:10px;
-    background:url(https://i.imgur.com/PlZwqo9.png);
+    background:url(https://i.imgur.com/KckmkFA.png);
     padding-right:10px;
     border-bottom-left-radius:25px;
     border-bottom-right-radius:25px;
@@ -12710,8 +12817,8 @@ and it is currently  <div class="datetime">
 <br><a2 style="
     
     font-family: 'Quicksand';
-">from, Sakurajima</a2></center>
-<br><center>🌸</center></br>
+">from, Toyohama</a2></center>
+<br><center>🎤</center></br>
 <center></center>
     
 </div>
@@ -12950,6 +13057,7 @@ and it is currently  <div class="datetime">
     </div>
 </div>
  <div id="about" class="about">{text:About}</div>
+  <div id="about" class="about"><a href="https://github.com/maiOSX/Snow-Leopard">maiOSX Snow Leopard</a> is the world's most advanced "OS" made for Tumblr consisting of over 15,000 lines of code. <a href="https://www.canva.com/design/DAFrQrhjLYo/s3Y97QswwYtC4jwXjap-Qg/view?utm_content=DAFrQrhjLYo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">A documentation guide for it can be found here.</a></div>
 
                 <ul class="sidebar-links sidebar-links-main">
                     
@@ -13123,7 +13231,7 @@ and it is currently  <div class="datetime">
 
          <div class="container"> 
         
-        <div id"ipadlogo" class="ipadlogo">SAKURAJIMA</div>
+        <div id"ipadlogo" class="ipadlogo">T O Y O H A M A</div>
         
         <div id"togglecon" class="togglecon">
          <div id="capcut1" class="capcut1">
@@ -14227,9 +14335,9 @@ id="youtube-audio">
                      Featured Posts
                  </div>
                 <div id="widget6subtext" class="widget6subtext">
-             <a href="https://ufointhesky.tumblr.com/post/675488864702496768/yes-were-skipping-the-middle-and-ending-of-the">Rally 5.0</a>
-              <a href="https://maiosx.com/post/689879481994838016/rally-45-is-concluded">Rally 4.5</a>
-                  <a href="https://ufointhesky.tumblr.com/post/669579866848526336/that-concludes-waves-rally-3-and-to-give-you-a">Rally 4.0 </a>
+             <a href="https://www.apple.com/apple-events/">Apple Events</a>
+              <a href="https://www.tumblr.com/mega-editor/published/chiosx/">MPV</a>
+                  <a href="https://drive.google.com/drive/folders/0BwKN3_36F61kSUNncndxQWZmdFk?resourcekey=0-1VRJGcOtByElNEdDONto8w&usp=sharing">GDrive </a>
                   <a href="https://maiosx.com/post/705208902559662080/announcements">★</a>
                 </div> 
          </div> 
@@ -14374,21 +14482,21 @@ id="youtube-audio">
 
 <script>
     var myDate = new Date();
-    var hrs = myDate.getHours();
+    var hrs = myDate.getHours(); 
 
     var greet;    
     if (hrs < 5) 
         greet = 'Its sleepy hours, what are you doing up?';  
     else if (hrs >= 5 && hrs <= 12)
-        greet = 'Good morning';
+        greet = 'All aboard, Nodoka Expresssssss!';
     else if (hrs >= 12 && hrs <= 17)
-        greet = 'Good Afternoon ';
+        greet = 'All aboard, Nodoka Expresssssss!';
         
     else if (hrs >= 17 && hrs <= 24)
-        greet = 'Good Evening';
+        greet = 'All aboard, Nodoka Expresssssss!';
         
     else if (hrs >= 22 && hrs <= 24)
-        greet = 'Goodnight';
+        greet = 'All aboard, Nodoka Expresssssss!';
         
  
     document.getElementById('lblGreetings').innerHTML =
@@ -15026,106 +15134,67 @@ Your browser does not support inline frames or is currently configured not to di
 
 <div class="hdockcontainer" style="
        z-index:9999; 
-    left: 0%;
+    left: 0%;position: fixed;
 ">
- <div class="hdockcontainerin"></div>
-     <div class="hdockcontainerin2">
-          <div class="dockh">
-        		<a href="https://www.tumblr.com/new/"  onclick="window.open('https://www.tumblr.com/new/', 
-                         'newwindow2', 
-                         'width=917,height=832'); 
-              return false;">
-         	<img alt="" src="https://i.pinimg.com/originals/da/20/4d/da204de815863e4aa877d14c91982bd4.gif"
-         	width=55" height="55">️<a></div> 
-         <div class="dockh2">
-       		<a href="https://rockstargames.com"  onclick="window.open('https://rockstargames.com', 
-                         'newwindow3', 
-                         'width=917,height=832'); 
-              return false;">
-         	<img alt="Imgur" src="https://media.giphy.com/media/3og0IFrHkIglEOg8Ba/giphy.gif"
-         	width=55" height="55">️<a></div>
-        <div class="dockh3">
-        	<a href="https://open.spotify.com/"  onclick="window.open('https://open.spotify.com/', 
-                         'newwindow4', 
-                         'width=917,height=832'); 
-              return false;">
-         	<img alt="Pikachu" src="https://vignette.wikia.nocookie.net/pokemon-rumble-fan/images/4/4f/GIF1.gif"
-         	width=55" height="55">️️️<a></div>
-        <div class="dockh4">
-        		<a href="https://youtu.be/O2RBdZteqOc"  onclick="window.open('https://youtu.be/O2RBdZteqOc', 
-                         'newwindow5', 
-                         'width=917,height=832'); 
-              return false;">
-         	<img alt="Spotify" src="https://discordemoji.com/assets/emoji/1754_Chika_Dance.gif"
-         	width=55" height="55">️<a></div>
-        <div class="dockh5">
-        		<a href="https://www.vscode.dev"  onclick="window.open('https://www.vscode.dev', 
-                         'newwindow6', 
-                         'width=917,height=832'); 
-              return false;">
-         	<img alt="Twitter" src="https://i.imgur.com/qJCBhEn.jpg"
-         	width="55" height="55">️<a></div>
-        <div class="dockh6">
-        	<a href="https://twitch.com"  onclick="window.open('https://twitch.com', 
-                         'newwindow7', 
-                         'width=917,height=832'); 
-              return false;">
-         	<img alt="Netflix" src="https://media.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif"
-         	width=55" height="55">️<a></div> 
-        <div class="dockh7">
-        		<a href="https://www.pinterest.com/"  onclick="window.open('https://www.pinterest.com/', 
-                         'newwindow8', 
-                         'width=917,height=832'); 
-              return false;">
-         	<img alt="r/funny" src="https://pa1.narvii.com/7122/73a0e11b4d7511127cc5a0b428069e3105a614c4r1-498-243_128.gif"
-         	width=55" height="55">️/<a></div>
-         	<div class="dockh8">
-        	<a href="https://www.analogue.co/pocket/">
-         	<img alt="Gameboy" src="https://i.pinimg.com/originals/68/6f/61/686f61a923775e73e7d3d08b70be4d6e.gif"
-         	width=55" height="55">️<a
-         	></div>
-         	<div class="dockh9">
-        	<a href="https://www.rockstargames.com">
-         	<img alt="Rockstar Games" src="https://www.rockstargames.com/midnightclubLA/downloads/content/avatar/MCLA_avatar_256x256_black_rlogo.jpg"
-         	width=55" height="55">️<a></div>
-         	
-         
-         	<div id=tag1 class=tag1>	<a href="/search/music"  onclick="window.open('/search/music', 
-                         'newwindow9', 
-                         'width=917,height=832'); 
-              return false;">Music</div>
-         	
-         	<div id=tag2 class=tag2>	<a href="/search/youtube"  onclick="window.open('/search/youtube', 
-                         'newwindow10', 
-                         'width=917,height=832'); 
-              return false;">Videos</div>
-         	
-         	<div id=tag3 class=tag3>	<a href="/search/photo"  onclick="window.open('/search/photo', 
-                         'newwindow11', 
-                         'width=917,height=832'); 
-              return false;">Photos</div> 
-         	
-         	<div id=tag4 class=tag4>	<a href="https://www.joyland.ai/"  onclick="window.open('https://www.joyland.ai/', 
-                         'newwindow12', 
-                         'width=917,height=832'); 
-              return false;">Joyland AI</div>
-         	<div id=tag5 class=tag5><a href="https://www.youtube.com/@DancingshanaVR"  onclick="window.open('https://www.youtube.com/@DancingshanaVR', 
-                         'newwindow13', 
-                         'width=917,height=832'); 
-              return false;">Shana</div>
-         	<div id=tag6 class=tag6>	<a href="https://www.crunchyroll.com/"  onclick="window.open('https://www.crunchyroll.com/', 
-                         'newwindow14', 
-                         'width=917,height=832'); 
-              return false;">Crunchyroll</div>
-         		<div id=tag7 class=tag7>	<a href="https://www.discord.com/app"  onclick="window.open('https://www.discord.com/app', 
-                         'newwindow15', 
-                         'width=917,height=832'); 
-              return false;">Instagram️</div>
-         	<div id=tag8 class=tag8><a href="https://store.steampowered.com/"  onclick="window.open('https://store.steampowered.com/', 
-                         'newwindow16', 
-                         'width=917,height=832'); 
-              return false;">Steam️</div>
-         	
+
+          <div id="iconsholder" class="iconsholder">
+            <div id="icon1" class="icon">
+                <a href="{text:DOCKURL1}"  onclick="window.open('{text:DOCKURL1}', 'newwindow2', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL1Image}">️</a> 
+            </div>
+            <div id="icon2" class="icon">
+                     <a href="{text:DOCKURL2}"  onclick="window.open('{text:URL2}', 'newwindow3', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL2Image}">️</a> </div>
+            <div id="icon3" class="icon">
+                     <a href="{text:DOCKDOCKURL3}"  onclick="window.open('{text:DOCKURL3}', 'newwindow2', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL3Image}">️</a> </div>  
+                     
+                         <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL4}"  onclick="window.open('{text:DOCKURL4}', 'newwindow4', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL4Image}">️</a> </div>  
+                     
+                         <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL5}"  onclick="window.open('{text:DOCKURL5}', 'newwindow5', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL5Image}">️</a> </div>  
+                     
+                         <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL6}"  onclick="window.open('{text:DOCKURL6}', 'newwindow6', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL6Image}">️</a> </div>  
+                     
+                         <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL7}"  onclick="window.open('{text:DOCKURL7}', 'newwindow7', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL7Image}">️</a> </div>  
+                     
+                         <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL8}"  onclick="window.open('{text:DOCKURL8}', 'newwindow8', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL8Image}">️</a> </div>      <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL9}"  onclick="window.open('{text:DOCKURL9}', 'newwindow9', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL9Image}">️</a> </div>      <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL10}"  onclick="window.open('{text:DOCKURL10}', 'newwindow10', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL10Image}">️</a> </div>      <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL11}"  onclick="window.open('{text:DOCKURL11}', 'newwindow11', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL11Image}">️</a> </div>      <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL12}"  onclick="window.open('{text:DOCKURL12}', 'newwindow12', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL12Image}">️</a> </div>      <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL13}"  onclick="window.open('{text:DOCKURL13}', 'newwindow13', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL13Image}">️</a> </div>      <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL14}"  onclick="window.open('{text:DOCKURL14}', 'newwindow14', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL14Image}">️</a> </div>      <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL15}"  onclick="window.open('{text:DOCKURL15}', 'newwindow15', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL15Image}">️</a> </div>  
+                     
+                         <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL16}"  onclick="window.open('{text:DOCKURL16}', 'newwindow16', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL16Image}">️</a> </div>      <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL17}"  onclick="window.open('{text:DOCKURL17}', 'newwindow17', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL17Image}">️</a> </div>      <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL18}"  onclick="window.open('{text:DOCKURL18}', 'newwindow18', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL18Image}">️</a> </div>      <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL19}"  onclick="window.open('{text:DOCKURL19}', 'newwindow19', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL19Image}">️</a> </div>      <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL20}"  onclick="window.open('{text:DOCKURL20}', 'newwindow20', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL20Image}">️</a> </div>  
+                     
+                
+                
+                
+                
+                
+                
+           
+               
+  </div>  
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+     
          	
          	
          	
@@ -15142,7 +15211,7 @@ Your browser does not support inline frames or is currently configured not to di
 ">
 <a1><center style="
     margin-left: -30px; margin-top:0px; 
-">maiOSX {text:version}</center></a1>
+">NodokaOSX {text:version}</center></a1>
 <a4 style="
     color: white; margin-top:30px;
     font-family: 'Quicksand'; display: block;
