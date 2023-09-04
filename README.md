@@ -7,5 +7,5 @@ This code has been a work in progress for many many years and is being given to 
 
 
 Documentation
-[https://www.canva.com/design/DAFrQrhjLYo/s3Y97QswwYtC4jwXjap-Qg/view?utm_content=DAFrQrhjLYo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink](http://tinyurl.com/maiosxdocumentation)http://tinyurl.com/maiosxdocumentation
+http://tinyurl.com/maiosxdocumentation
 
