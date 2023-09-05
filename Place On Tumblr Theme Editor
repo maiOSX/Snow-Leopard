@@ -12254,7 +12254,7 @@ $(document).ready(function(){
          $(".hellob").css({'display': 'block'}); 
            {block:IfShowYouTubeBackground}
         $(".youtubebackground").css({'display': 'block','opacity':'100'});
-        
+           $(".hellob").css({'display': 'none'}); 
            {/block:IfShowYouTubeBackground}
         $(".helloc").css({'display': 'block','opacity':'0'});
    
