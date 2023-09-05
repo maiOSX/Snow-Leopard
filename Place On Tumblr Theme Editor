@@ -12253,7 +12253,7 @@ $(document).ready(function(){
         $(".orbstop").css({'display': 'block'}); 
          $(".hellob").css({'display': 'block'}); 
            {block:IfShowYouTubeBackground}
-        $(".youtubebackground").css({'display': 'block','opacity':'100'});
+        $(".youtubebackground").css({'block': 'none','opacity':'100'});
            $(".hellob").css({'display': 'none'}); 
            {/block:IfShowYouTubeBackground}
         $(".helloc").css({'display': 'block','opacity':'0'});
