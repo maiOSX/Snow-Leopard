@@ -8697,7 +8697,7 @@ border:1px solid rgba(255,255,255,0.9); }
     animation-timing-function: ease-in; 
     animation-fill-mode: forwards;
 }
- .hellob {display:block;background:rgba(0,0,0,{text:PortraitModeBlurDarkAmount}); width:100%;height:101.6%;z-index:9; position:fixed; -webkit-backdrop-filter: blur(10px);
+ .hellob {display:block;background:rgba(0,0,0,{text:PortraitModeBlurDarkAmount}); width:100%;height:101.6%;z-index:99; position:fixed; -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px); margin-top:-16px;   }  
 
        {block:IfPortraitDesktopBG}
@@ -12079,6 +12079,7 @@ $(document).ready(function(){
     $("#btn_id").click(function(){
         $("#main").css({'left': '37%', 'width' : '494px','display': 'block'});
           $(".hellouser").css({'display': 'none'});
+            $(".hellob").css({'display': 'none'});
             $(".hellofade").css({'display': 'none'});
              $(".qdialogpage").css({'display': 'none'});
                    $(".pong").css({'display': 'none'});
@@ -12234,8 +12235,8 @@ $(document).ready(function(){
     $("#btn_id6").click(function(){
           $(".hellouser").css({'display':'none'});
           $(".hellofade").css({'display': 'none'});
-           $(".qdialogpage").css({'display': 'block'});
-           $(".q").css({'animation': 'slide-top 1000s','opacity':'100'});
+           $(".qdialogpage").css({'display': 'block','pointer-events':'all'});
+           $(".q").css({'animation': 'slide-top 1000s','opacity':'100','pointer-events':'all'});
              $(".main").css({'backdrop-filter': 'blur(6px)',
                '-webkit-backdrop-filter': 'blur(6px)',
                'background':'rgba(0,0,0,0.0)'});
@@ -12254,7 +12255,7 @@ $(document).ready(function(){
          $(".hellob").css({'display': 'block'}); 
            {block:IfShowYouTubeBackground}
         $(".youtubebackground").css({'block': 'none','opacity':'100'});
-           $(".hellob").css({'display': 'none'}); 
+           $(".hellob").css({'display': 'block','z-index':'99'}); 
            {/block:IfShowYouTubeBackground}
         $(".helloc").css({'display': 'block','opacity':'0'});
    
@@ -12272,8 +12273,8 @@ $(document).ready(function(){
         $(".helloc").css({'display': 'none'});
        
         $(".hellofade").css({'display': 'block'});
-        $(".qdialogpage").css({'display': 'block'});
-        $(".q").css({'display': 'block','opacity':'0'});
+        $(".qdialogpage").css({'display': 'block','pointer-events':'none'});
+        $(".q").css({'display': 'block','opacity':'0','pointer-events':'none'});
         $(".main").css({'backdrop-filter': 'blur(0px)',
                '-webkit-backdrop-filter': 'blur(0px)',
                'background':'rgba(0,0,0,0.5)'});
@@ -12286,6 +12287,10 @@ $(document).ready(function(){
         $(".icon-bar").css({'backdrop-filter': 'blur(0px)',
                '-webkit-backdrop-filter': 'blur(0px)',
                'background':'rgba(0,0,0,0.5)'});
+                 {block:IfShowYouTubeBackground}
+        $(".youtubebackground").css({'display': 'none','opacity':'100'});
+           $(".hellob").css({'display': 'none'}); 
+           {/block:IfShowYouTubeBackground}
                  $(".hellofade").css({'display': 'none'});
           $(".hellob").css({'display': 'none'}); 
           
@@ -14572,15 +14577,15 @@ id="youtube-audio">
     if (hrs < 5) 
         greet = 'Its sleepy hours, what are you doing up?';  
     else if (hrs >= 5 && hrs <= 12)
-        greet = 'All aboard, Nodoka Expresssssss!';
+        greet = 'Good Morning,';
     else if (hrs >= 12 && hrs <= 17)
-        greet = 'All aboard, Nodoka Expresssssss!';
+        greet = 'Good Afternoon,';
         
     else if (hrs >= 17 && hrs <= 24)
-        greet = 'All aboard, Nodoka Expresssssss!';
+        greet = 'Good Evening,';
         
     else if (hrs >= 22 && hrs <= 24)
-        greet = 'All aboard, Nodoka Expresssssss!';
+        greet = 'Goodnight,';
         
  
     document.getElementById('lblGreetings').innerHTML =
