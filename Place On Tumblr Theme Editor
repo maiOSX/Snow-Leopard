@@ -8983,7 +8983,7 @@ border:1px solid rgba(255,255,255,0.9); }
 
    /*move if portraitdesktopbg line here to add gradient again */
         {/block:IfPortraitDesktopBG}
-      .helloc {display:block;background: linear-gradient(180deg, rgba(0,0,0,0.3309698879551821) 0%, rgba(0,0,0,0.35057773109243695) 100%);width:100%; position:fixed;opacity:50%; height: 101.6%; 
+      .helloc {display:block;background: linear-gradient(180deg, rgba(0,0,255,0.3309698879551821) 0%, rgba(0,0,0,0.35057773109243695) 100%);width:100%; position:fixed;opacity:50%; height: 101.6%; 
     z-index: 99;   margin-top:-16px;}
     
   
@@ -12088,13 +12088,32 @@ $(document).ready(function(){
                     $(".toggle5").css({'display': 'block'});
                   $(".toggle4").css({'display': 'block'});
                          $(".helloc").css({'display': 'none'});  
+                           $(".main").css({'backdrop-filter': 'blur(6px)',
+               '-webkit-backdrop-filter': 'blur(6px)',
+               'background':'rgba(0,0,0,0.0)'});
+        $(".searchcontainer2").css({'backdrop-filter': 'blur(6px)',
+               '-webkit-backdrop-filter': 'blur(6px)',
+               'background':'rgba(0,0,0,0.0)'});
+        $(".sidebar").css({'backdrop-filter': 'blur(6px)',
+               '-webkit-backdrop-filter': 'blur(6px)',
+               'background':'rgba(0,0,0,0.0)'});
+        $(".icon-bar").css({'backdrop-filter': 'blur(6px)',
+               '-webkit-backdrop-filter': 'blur(6px)',
+               'background':'rgba(0,0,0,0.0)'});
+                $(".hellob").css({'display': 'block'}); 
+        $(".youtubeeffect").css({'display': 'block'}); 
+        $(".orbstop").css({'display': 'block'}); 
+        $(".youtubebackground").css({'display': 'block'});
+        $(".helloc").css({'display': 'block','opacity':'0'});
+    
      });
 });
 </script>
  <script type="text/javascript">
 $(document).ready(function(){
     $("#btn_id2").click(function(){
-          $(".helloc").css({'display': 'none'});
+          $(".helloc").css({'display': 'block','opacity':'0'});
+             $(".qdialogpage").css({'display': 'block'});
           
             $(".hellofade").css({'display': 'none'});
                 $(".hellob").css({'display': 'none'});
@@ -12107,6 +12126,26 @@ $(document).ready(function(){
                         $(".toggle6").css({'display': 'block'});
                     $(".toggle5").css({'display': 'block'});
                   $(".toggle4").css({'display': 'block'});
+                  
+                  
+                   $(".main").css({'backdrop-filter': 'blur(6px)',
+               '-webkit-backdrop-filter': 'blur(6px)',
+               'background':'rgba(0,0,0,0.0)'});
+        $(".searchcontainer2").css({'backdrop-filter': 'blur(6px)',
+               '-webkit-backdrop-filter': 'blur(6px)',
+               'background':'rgba(0,0,0,0.0)'});
+        $(".sidebar").css({'backdrop-filter': 'blur(6px)',
+               '-webkit-backdrop-filter': 'blur(6px)',
+               'background':'rgba(0,0,0,0.0)'});
+        $(".icon-bar").css({'backdrop-filter': 'blur(6px)',
+               '-webkit-backdrop-filter': 'blur(6px)',
+               'background':'rgba(0,0,0,0.0)'});
+                $(".hellob").css({'display': 'block'}); 
+        $(".youtubeeffect").css({'display': 'block'}); 
+        $(".orbstop").css({'display': 'block'}); 
+        $(".youtubebackground").css({'display': 'block'});
+  
+  
             
      });
 });
@@ -12115,17 +12154,35 @@ $(document).ready(function(){
    <script type="text/javascript">
 $(document).ready(function(){
     $("#btn_id3").click(function(){
-            
+               
                 $(".hellofade").css({'display': 'none'});
-                 $(".helloc").css({'display': 'block'});
+                 $(".helloc").css({'display': 'block','opacity':'100'});
                    $(".hellob").css({'display': 'block'});
-                 $(".qdialogpage").css({'display': 'none'});
+             
                        $(".pong").css({'display': 'none'});
                         $(".pongheader").css({'display': 'none'});
                               $(".toggle7").css({'display': 'block'});
                         $(".toggle6").css({'display': 'block'});
                     $(".toggle5").css({'display': 'block'});
                   $(".toggle4").css({'display': 'block'});
+                    $(".main").css({'backdrop-filter': 'blur(6px)',
+               '-webkit-backdrop-filter': 'blur(6px)','display':'block',
+               'background':'rgba(0,0,0,0.0)'});
+        $(".searchcontainer2").css({'backdrop-filter': 'blur(6px)',
+               '-webkit-backdrop-filter': 'blur(6px)',
+               'background':'rgba(0,0,0,0.0)'});
+        $(".sidebar").css({'backdrop-filter': 'blur(6px)',
+               '-webkit-backdrop-filter': 'blur(6px)',
+               'background':'rgba(0,0,0,0.0)'});
+        $(".icon-bar").css({'backdrop-filter': 'blur(6px)',
+               '-webkit-backdrop-filter': 'blur(6px)',
+               'background':'rgba(0,0,0,0.0)'});
+                $(".hellob").css({'display': 'block'}); 
+        $(".youtubeeffect").css({'display': 'block'}); 
+        $(".orbstop").css({'display': 'block'}); 
+        $(".youtubebackground").css({'display': 'block'});
+     
+     
                 
      });
 });
@@ -12134,7 +12191,7 @@ $(document).ready(function(){
  <script type="text/javascript">
 $(document).ready(function(){
     $("#btn_id4").click(function(){
-              $(".helloc").css({'display': 'none'});
+             $(".helloc").css({'display': 'block','opacity':'100'});
                 $(".youtubebackground").css({'display': 'none'});
                $(".hellob").css({'display': 'block'});
                 $(".hellouser").css({'animation': 'slide-top 1s cubic-bezier(0.785, 0.135, 0.150, 0.860) reverse forwards','display': 'block'});
@@ -12178,7 +12235,25 @@ $(document).ready(function(){
       
           $(".hellofade").css({'display': 'none'});
            $(".qdialogpage").css({'display': 'block'});
-           $(".q").css({'animation': 'slide-top 1000s'}); 
+           $(".q").css({'animation': 'slide-top 1000s','opacity':'100'});
+             $(".main").css({'backdrop-filter': 'blur(6px)',
+               '-webkit-backdrop-filter': 'blur(6px)',
+               'background':'rgba(0,0,0,0.0)'});
+        $(".searchcontainer2").css({'backdrop-filter': 'blur(6px)',
+               '-webkit-backdrop-filter': 'blur(6px)',
+               'background':'rgba(0,0,0,0.0)'});
+        $(".sidebar").css({'backdrop-filter': 'blur(6px)',
+               '-webkit-backdrop-filter': 'blur(6px)',
+               'background':'rgba(0,0,0,0.0)'});
+        $(".icon-bar").css({'backdrop-filter': 'blur(6px)',
+               '-webkit-backdrop-filter': 'blur(6px)',
+               'background':'rgba(0,0,0,0.0)'});
+                $(".hellob").css({'display': 'block'}); 
+        $(".youtubeeffect").css({'display': 'block'}); 
+        $(".orbstop").css({'display': 'block'}); 
+        $(".youtubebackground").css({'display': 'block','opacity':'100'});
+        $(".helloc").css({'display': 'block','opacity':'0'});
+   
      });
 });  
 </script>
@@ -12190,10 +12265,10 @@ $(document).ready(function(){
         $(".orbstop").css({'display': 'none'}); 
         $(".youtubebackground").css({'display': 'none'});
         $(".helloc").css({'display': 'none'});
-        $(".hellouser").css({'display': 'none'});
-        $(".hellofade").css({'display': 'none'});
-        $(".qdialogpage").css({'display': 'none'});
-        $(".q").css({'display': 'none'});
+       
+        $(".hellofade").css({'display': 'block'});
+        $(".qdialogpage").css({'display': 'block'});
+        $(".q").css({'display': 'block','opacity':'0'});
         $(".main").css({'backdrop-filter': 'blur(0px)',
                '-webkit-backdrop-filter': 'blur(0px)',
                'background':'rgba(0,0,0,0.5)'});
@@ -12206,6 +12281,10 @@ $(document).ready(function(){
         $(".icon-bar").css({'backdrop-filter': 'blur(0px)',
                '-webkit-backdrop-filter': 'blur(0px)',
                'background':'rgba(0,0,0,0.5)'});
+                 $(".hellofade").css({'display': 'none'});
+        
+          
+               
      });
 });  
 </script>
