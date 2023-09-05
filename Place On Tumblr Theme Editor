@@ -12177,8 +12177,8 @@ $(document).ready(function(){
     $("#btn_id6").click(function(){
       
           $(".hellofade").css({'display': 'none'});
-        
-           $(".q").css({'animation': 'slide-top 1s'}); 
+           $(".qdialogpage").css({'display': 'block'});
+           $(".q").css({'animation': 'slide-top 1000s'}); 
      });
 });  
 </script>
