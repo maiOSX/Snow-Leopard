@@ -12100,7 +12100,7 @@ $(document).ready(function(){
         $(".icon-bar").css({'backdrop-filter': 'blur(6px)',
                '-webkit-backdrop-filter': 'blur(6px)',
                'background':'rgba(0,0,0,0.0)'});
-                $(".hellob").css({'display': 'block'}); 
+             
         $(".youtubeeffect").css({'display': 'block'}); 
         $(".orbstop").css({'display': 'block'}); 
         $(".youtubebackground").css({'display': 'block'});
@@ -12140,7 +12140,7 @@ $(document).ready(function(){
         $(".icon-bar").css({'backdrop-filter': 'blur(6px)',
                '-webkit-backdrop-filter': 'blur(6px)',
                'background':'rgba(0,0,0,0.0)'});
-                $(".hellob").css({'display': 'block'}); 
+            
         $(".youtubeeffect").css({'display': 'block'}); 
         $(".orbstop").css({'display': 'block'}); 
         $(".youtubebackground").css({'display': 'block'});
@@ -12157,7 +12157,7 @@ $(document).ready(function(){
                
                 $(".hellofade").css({'display': 'none'});
                  $(".helloc").css({'display': 'block','opacity':'100'});
-                   $(".hellob").css({'display': 'block'});
+                  $(".hellob").css({'display': 'none'}); 
              
                        $(".pong").css({'display': 'none'});
                         $(".pongheader").css({'display': 'none'});
@@ -12177,7 +12177,7 @@ $(document).ready(function(){
         $(".icon-bar").css({'backdrop-filter': 'blur(6px)',
                '-webkit-backdrop-filter': 'blur(6px)',
                'background':'rgba(0,0,0,0.0)'});
-                $(".hellob").css({'display': 'block'}); 
+           
         $(".youtubeeffect").css({'display': 'block'}); 
         $(".orbstop").css({'display': 'block'}); 
         $(".youtubebackground").css({'display': 'block'});
@@ -12248,10 +12248,14 @@ $(document).ready(function(){
         $(".icon-bar").css({'backdrop-filter': 'blur(6px)',
                '-webkit-backdrop-filter': 'blur(6px)',
                'background':'rgba(0,0,0,0.0)'});
-                $(".hellob").css({'display': 'block'}); 
+                $(".hellob").css({'display': 'none'}); 
         $(".youtubeeffect").css({'display': 'block'}); 
         $(".orbstop").css({'display': 'block'}); 
+         $(".hellob").css({'display': 'block'}); 
+           {block:IfShowYouTubeBackground}
         $(".youtubebackground").css({'display': 'block','opacity':'100'});
+        
+           {/block:IfShowYouTubeBackground}
         $(".helloc").css({'display': 'block','opacity':'0'});
    
      });
@@ -12283,7 +12287,7 @@ $(document).ready(function(){
                '-webkit-backdrop-filter': 'blur(0px)',
                'background':'rgba(0,0,0,0.5)'});
                  $(".hellofade").css({'display': 'none'});
-        
+          $(".hellob").css({'display': 'none'}); 
           
                
      });
