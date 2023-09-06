@@ -751,6 +751,12 @@ div.npf-link-block.no-poster .title {
    100% {opacity: 0;} 
 } 
 
+@keyframes fadeInX {
+   0% {  backdrop-filter: blur(10px);-webkit-backdrop-filter: blur(10px); }
+   100% {  backdrop-filter: blur(0px);-webkit-backdrop-filter: blur(0px); pointer-events:none;} 
+} 
+
+
 @keyframes fadeIn {
    0% {opacity: 0;}
    90% {opacity:1;}
@@ -8647,10 +8653,10 @@ border:1px solid rgba(255,255,255,0.9); }
     
     @keyframes fadeInfromblack {
     from{
-        opacity: 1;
+        opacity: 1; 
     }
     to{
-        opacity: 0;
+        opacity: 0; 
     }
 }
 @-webkit-keyframes slideIn {
@@ -8697,8 +8703,8 @@ border:1px solid rgba(255,255,255,0.9); }
     animation-timing-function: ease-in; 
     animation-fill-mode: forwards; 
 }
- .hellob {display:block;      animation-name: fadeInfromblack;   animation-duration: 120s;background:rgba(0,0,0,{text:PortraitModeBlurDarkAmount}); width:100%;height:101.6%;z-index:99; position:fixed; -webkit-backdrop-filter: blur(10px); 
-    backdrop-filter: blur(10px); margin-top:-16px;   }  
+ .hellob {display:block;      animation: fadeInX 90s; animation-iteration-count:1;background:rgba(0,0,0,{text:PortraitModeBlurDarkAmount}); width:100%;height:101.6%;z-index:99; position:fixed; -webkit-backdrop-filter: blur(10px); 
+   margin-top:-16px;   }  
 
        {block:IfPortraitDesktopBG}
        .sidebuttons:hover
