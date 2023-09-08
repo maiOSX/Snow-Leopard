@@ -5596,14 +5596,16 @@ font-family: Spartan;
                                  }
                                  
                                  @media screen and (min-width:490px) {
-                                          .fig1mobile {height:26px !important;}
+                                          .fig1mobile {height:12px !important;}
                                                .fig1 {height:0px !important; } 
+                                               #posts {border-top:1px solid rgba(0,0,0,0.0) !important;}
                                               
                                  }
                                  
                                                  @media screen and (min-width:1245px) {
-                                          .fig1mobile {height:3px !important;}
+                                          .fig1mobile {height:4px !important;}
                                                .fig1 {height:0px !important; } 
+                                                #posts {border-top:1px solid rgba(0,0,0,0.0) !important;}
                                               
                                  }
                                  
