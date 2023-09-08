@@ -107,6 +107,7 @@
                              <meta name="image:DOCKURL20Image" content="">
         <meta name="image:StatusBackground" content="">
         <meta name="if:ShowYouTubeBackground" content=""/>
+         <meta name="if:HideFeaturedGifs" content="1"/>
         <meta name="if:ShowYouTubeEffect" content=""/>
         <meta name="if:DesktopPostBlur" content=""/>
         <meta name="if:DesktopPostShadow" content=""/>
@@ -204,6 +205,7 @@
     bottom: 140px !important;
     overflow-x: scroll; backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);
     display: -webkit-inline-box;
+        display: inline-box;
     border-radius: 15px; transition:200ms;
     border: 1px solid rgba(255,255,255,0.5);}
     
@@ -5361,7 +5363,7 @@ font-family: Spartan;
             -webkit-transition: top 0.1s ease-in;
             transition: top 0.1s ease-in;
             cursor: pointer;
-            border-radius: 150px 150px 150px 150px;
+            border-radius: 150px 150px 150px 150px; 
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
             line-height: 230%; -webkit-transition: all 1s ease-out;
@@ -5578,6 +5580,40 @@ font-family: Spartan;
             .msg a {  color:white;
             }
             
+                    {block:IfHideFeaturedGifs}
+            
+            .drag1 {display:none;}
+                  .drag2 {display:none;}
+                        .drag3 {display:none;}
+                              .drag4 {display:none;}
+                                    .drag5 {display:none;}
+                                          .drag6 {display:none;}
+                                       
+                                            @media screen and (min-width:0px) {
+                                          .fig1mobile {height: 579px;}
+                                               .fig1 {height:0px !important; } 
+                                              
+                                 }
+                                 
+                                 @media screen and (min-width:490px) {
+                                          .fig1mobile {height:26px !important;}
+                                               .fig1 {height:0px !important; } 
+                                              
+                                 }
+                                 
+                                                 @media screen and (min-width:1245px) {
+                                          .fig1mobile {height:3px !important;}
+                                               .fig1 {height:0px !important; } 
+                                              
+                                 }
+                                 
+                                    
+                                
+                                  
+            
+                  {/block:IfHideFeaturedGifs}
+            
+            
 .fig1mobile {      opacity: 100%;
     width: 456px;
     min-width: 456px;
@@ -5626,7 +5662,7 @@ font-family: Spartan;
     border-radius: 150px;
     background-image: url('{image:Logo}');
     background-size: cover;
-    height: 90px;
+    height: 90px; 
     width: 90px; box-shadow: 0px 10px 10px rgba(0,0,0,0.6);
     background-position-x: center;
     
@@ -6642,7 +6678,9 @@ animation:fadeIn 7s;
     
 
 @media screen and (min-width:1245px) { 
-    
+         {block:IfHideFeaturedGifs}
+       .fig1mobile {height:3px !important;}
+            {/block:IfHideFeaturedGifs}
     .permalink-page .hellob {background:url('{image:Wallpaper}');
             background-size: cover;     background-position: 50%;    transform: scale(1.0);
     } 
@@ -13879,8 +13917,11 @@ MMXVII-MMXXIII
         
        
 </div>        
+
+
+
                 <div id="fig1" class="fig1" ondrop="dropThis(event)" ondragover="allowDropThis(event)"> 
-               
+       
 <img src="https://64.media.tumblr.com/402e5aae2245b83d24b1ae75e849e138/a72690519a94a968-66/s250x400/1f44b2af238bfd64f74c91de9383aa2d7f486cd5.gifv" draggable="true" ondragstart="dragThis(event)" id="drag1" class="drag1" width="100" height="150">
 
 
