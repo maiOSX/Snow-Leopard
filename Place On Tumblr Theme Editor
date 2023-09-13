@@ -12953,13 +12953,15 @@ and it is currently  <div class="datetime">
 
 <div id="minipct" class="minipct">
 <center><a2 style="
-   
+   letter-spacing:1px;
+    text-transform: lowercase;
     font-family: 'Quicksand';
 ">hello, earth</a2>
 <br><a2 style="
-    
+       letter-spacing:1px;
+    text-transform: lowercase;
     font-family: 'Quicksand';
-">from, Toyohama</a2></center>
+">from, {text:blogname}</a2></center>
 <br><center>🎤</center></br>
 <center></center>
     
