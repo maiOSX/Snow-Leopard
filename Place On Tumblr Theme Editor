@@ -6128,7 +6128,8 @@ transition: ease-out 4s;position:relative;z-index:9999;
 }}
 
 @media screen and (min-width:490px) {
-    
+    .toggleS {opacity:0 !important;}
+    .toggleS:hover {opacity:0 !important;}
      .post p { overflow: initial;}
 
     .sidebar-link {display:none;}
@@ -6681,6 +6682,11 @@ animation:fadeIn 7s;
     
 
 @media screen and (min-width:1245px) { 
+    
+    .toggleS{opacity:100 !important;}
+  
+      .toggleS:hover{opacity:100 !important;}
+
          {block:IfHideFeaturedGifs}
        .fig1mobile {height:4px !important;}
             {/block:IfHideFeaturedGifs}
@@ -7523,9 +7529,9 @@ margin-top: -258px;
     height: 62px;
     position: relative;
     display: block;
-    margin: 0;
+    margin: 0; font-style: normal;
     top: 0;
-    /* left: 25%; */
+    /* left: 25%; */ 
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -7550,7 +7556,7 @@ margin-top: -258px;
     margin-bottom: 1px;
     position: center;
     background-repeat: no-repeat;
-    transition: transform .2s;
+    transition: 1s;
     animation-name: floating;
     padding-left: 50px;     text-shadow: 0px 2px 4px rgb(0 0 0 / 90%);
     padding-right: 50px;
@@ -7560,10 +7566,10 @@ margin-top: -258px;
 
 
   .toggleS:hover {
-   height: 62px;     text-shadow: 0px 2px 4px rgb(0 0 0 / 90%);
+   height: 62px;     text-shadow: 0px 2px 4px rgb(255 255 255 / 90%);
     position: sticky;
     display: block;
-    margin: 0;
+    margin: 0; font-style: normal;
     top: 0;
     /* left: 25%; */
     width: 100%;
@@ -7573,7 +7579,7 @@ margin-top: -258px;
     display: grid !important;
     justify-content: center;
     align-content: center;
-    letter-spacing: 8px;
+    letter-spacing: 4px;
     background: rgba(0,0,0,0.0);
     border-radius: 150px;
   
@@ -7589,7 +7595,7 @@ margin-top: -258px;
     margin-bottom: 1px;
     position: center;
     background-repeat: no-repeat;
-    transition: transform .2s;
+    transition: 1s;
     animation-name: floating;
     padding-left: 50px;
     padding-right: 50px;
@@ -10194,7 +10200,7 @@ margin-right:5px;
     
     
 	.toggle2 { width: 100%;
-    display: flex;
+    display: flex; font-style: normal;
     justify-content: center;
     align-items: center;
     letter-spacing:8px;   
@@ -10209,12 +10215,12 @@ margin-right:5px;
     height: 261px;    text-shadow: 0px 2px 4px rgb(0 0 0 / 90%);
     width:861px;
    /* background-image: url('https://i.imgur.com/64kyZYy.png') ; */
-    font-style:italic;
+  
     line-height: 300%;
     margin-bottom:1px;
     position: center;
     background-repeat: no-repeat;
-    transition: transform .2s;
+    transition: 1s;
     animation-name: floating;
     padding-left: 50px; 
     padding-right: 50px;
@@ -10252,12 +10258,12 @@ margin-top:200px;
  }
     
     	.toggle2:hover { width: 100%;
-    display: flex;
+    display: flex; font-style: normal;
     justify-content: center;
     align-items: center;    
-    letter-spacing:8px;
+    letter-spacing:4px;
     font-family:'Quicksand';   
-        text-shadow: 0px 2px 4px rgb(0 0 0 / 90%);
+        text-shadow: 0px 2px 4px rgb(255 255 255 / 90%);
     border-radius: 150px;
     color:white;
     
@@ -10268,12 +10274,12 @@ margin-top:200px;
     height: 261px;
     width:861px;
   /*  background-image: url('https://i.imgur.com/64kyZYy.png') ; */
-    font-style:italic;
+   
     line-height: 300%;
     margin-bottom:1px;
     position: center;
     background-repeat: no-repeat;
-    transition: transform .2s;
+    transition: 1s;
     animation-name: floating;
     padding-left: 50px;
     padding-right: 50px;
