@@ -3,7 +3,7 @@
         <!--            
         
          //*  <script type="text/javascript">
-   window.location.replace("http://twitter.com/archillect"); 
+   window.location.replace("http://twitter.com/archillect");  
    </script> *//
              
                                Mai OS X                    
@@ -18,7 +18,7 @@
         <script src="https://static.tumblr.com/yxfeliq/hHwojmt8m/bctphotoset.min.js"></script>
 
 <script src="https://cdn.jsdelivr.net/gh/boscoxvi/npfphotosets/npfphotosets.js"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400&display=swap" rel="stylesheet"> 
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com"> 
@@ -36,6 +36,7 @@
         <meta name="theme-color" content="{color:Header}">
         <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
         {block:Hidden}
+         <meta name="text:blogname" content=""/>
         <meta name="text:YoutubeBackground" content=""/>
         <meta name="text:version" content=""/>
         <meta name="text:mversion" content=""/>
@@ -738,7 +739,7 @@ div.npf-link-block.no-poster .title {
             pointer-events:all; 
             
             animation:fadeIn 3s;
-            background:url('{image:statusbackground}');
+            background:url('{image:miniwallpaper}');
       }
       
     /*  .hello:hover { display:block; margin:0 auto; left:0; top:0;
@@ -7533,58 +7534,57 @@ margin-top: -258px;
     justify-content: center;
     align-content: center;
     letter-spacing: 8px;
-    font-family: Helvetica;
+    color:white;
     background: rgba(0,0,0,0.0);
     border-radius: 150px;
-    font-weight: bold;
+  
     font-size: 20px;
-    transform: scale(0.2);
+    transform: scale(0.8); font-family:'Quicksand';
     background-position: center;
     z-index: 999;
     height: 261px;
     width: 861px;
-    background-image: url(https://i.imgur.com/64kyZYy.png);
-    font-style: italic;
+   /* background-image: url(https://i.imgur.com/64kyZYy.png); */
+    
     line-height: 300%;
     margin-bottom: 1px;
     position: center;
     background-repeat: no-repeat;
     transition: transform .2s;
     animation-name: floating;
-    padding-left: 50px;
+    padding-left: 50px;     text-shadow: 0px 2px 4px rgb(0 0 0 / 90%);
     padding-right: 50px;
-  margin-top: -258px;
+    margin-top: -258px;
     justify-items: center;
 }
 
 
   .toggleS:hover {
-   height: 62px;
+   height: 62px;     text-shadow: 0px 2px 4px rgb(0 0 0 / 90%);
     position: sticky;
     display: block;
     margin: 0;
     top: 0;
     /* left: 25%; */
     width: 100%;
-    display: flex;
+    display: flex; font-family:'Quicksand';
     justify-content: space-evenly;
     align-items: center;
     display: grid !important;
     justify-content: center;
     align-content: center;
     letter-spacing: 8px;
-    font-family: Helvetica;
     background: rgba(0,0,0,0.0);
     border-radius: 150px;
-    font-weight: bold;
+  
     font-size: 20px;
-    transform: scale(0.2);
+    transform: scale(0.8); color:white;
     background-position: center;
     z-index: 9999;
     height: 261px;
     width: 861px;
-    background-image: url(https://i.imgur.com/64kyZYy.png);
-    font-style: italic;
+   /* background-image: url(https://i.imgur.com/64kyZYy.png); */
+   
     line-height: 300%;
     margin-bottom: 1px;
     position: center;
@@ -10198,17 +10198,17 @@ margin-right:5px;
     justify-content: center;
     align-items: center;
     letter-spacing:8px;   
-    font-family:Helvetica;  
-    
+    font-family:'Quicksand';  
+    color:white;
     border-radius: 150px;
     font-weight:bold;
     font-size:20px;
-     transform:scale(0.2);
+     transform:scale(0.8);
     background-position: center;
     z-index: 1;
-    height: 261px;
+    height: 261px;    text-shadow: 0px 2px 4px rgb(0 0 0 / 90%);
     width:861px;
-    background-image: url('https://i.imgur.com/64kyZYy.png') ;
+   /* background-image: url('https://i.imgur.com/64kyZYy.png') ; */
     font-style:italic;
     line-height: 300%;
     margin-bottom:1px;
@@ -10233,7 +10233,7 @@ height:20px; left:0 !important; position:relative !important;
     font-family:Helvetica;    background: rgba(0,0,0,0.85);
     border-bottom-left-radius: 150px;
     border-bottom-right-radius: 150px;
-    font-weight:bold;
+   
     font-size:20px; border:1px solid rgba(255,255,255,0.1);
    border-radius:150px;
 margin-top:200px;
@@ -10242,7 +10242,7 @@ margin-top:200px;
   padding-top:10px;
   
 
-    font-style:italic;
+   
     line-height: 300%;
 
     position: center;
@@ -10256,18 +10256,18 @@ margin-top:200px;
     justify-content: center;
     align-items: center;    
     letter-spacing:8px;
-    font-family:Helvetica;   
-    
+    font-family:'Quicksand';   
+        text-shadow: 0px 2px 4px rgb(0 0 0 / 90%);
     border-radius: 150px;
-  
-    font-weight:bold;
+    color:white;
+    
     font-size:20px;  
-     transform:scale(0.2);
+     transform:scale(0.8);
     background-position: center;
     z-index: 1;
     height: 261px;
     width:861px;
-    background-image: url('https://i.imgur.com/64kyZYy.png') ;
+  /*  background-image: url('https://i.imgur.com/64kyZYy.png') ; */
     font-style:italic;
     line-height: 300%;
     margin-bottom:1px;
@@ -12917,7 +12917,7 @@ and it is currently  <div class="datetime">
         <div class="container">
         
         
-        <a class="toggle2" href="#WaveMenu"></a>
+        <a class="toggle2" href="#WaveMenu">{text:BlogName}</a>
 </p>
 
 
@@ -13367,7 +13367,7 @@ and it is currently  <div class="datetime">
 
          <div class="container"> 
         
-        <div id"ipadlogo" class="ipadlogo">T O Y O H A M A</div>
+        <div id"ipadlogo" class="ipadlogo">{text:BlogName}</div>
         
         <div id"togglecon" class="togglecon">
          <div id="capcut1" class="capcut1">
@@ -13384,7 +13384,7 @@ and it is currently  <div class="datetime">
     </div>
 
         
-    <a class="toggleS" href="#showsearch"></a>
+    <a class="toggleS" href="#showsearch">{text:BlogName}</a>
 </p>
 <div id="showsearch" class="showsearch">
               
@@ -14627,15 +14627,15 @@ id="youtube-audio">
     if (hrs < 5) 
         greet = 'Its sleepy hours, what are you doing up?';  
     else if (hrs >= 5 && hrs <= 12)
-        greet = 'Good Morning,';
+        greet = 'Good Morning Reaper,';
     else if (hrs >= 12 && hrs <= 17)
-        greet = 'Good Afternoon,';
+        greet = 'Good Afternoon Reaper,';
         
     else if (hrs >= 17 && hrs <= 24)
-        greet = 'Good Evening,';
+        greet = 'Goodnight Reaper,';
         
     else if (hrs >= 22 && hrs <= 24)
-        greet = 'Goodnight,';
+        greet = 'Goodnight Reaper,';
         
  
     document.getElementById('lblGreetings').innerHTML =
