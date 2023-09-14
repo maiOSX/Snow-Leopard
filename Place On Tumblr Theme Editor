@@ -198,7 +198,7 @@
         .newdockbg
 {width:90%;background:deepskyblue;bottom:0px;position:fixed;height:110px;left:5%;}
 .iconsholder
-{    width: 1000px;
+{    width: 1000px;transform:scale(0.5);
     height: 87px; padding-left: 15px;
     background: rgba(0,0,0,0.5);padding-right: 15px;
   margin-left: -30px;
@@ -211,7 +211,7 @@
     border: 1px solid rgba(255,255,255,0.5);}
     
     .iconsholder:hover
-{    width: 1000px;
+{    width: 1000px; transform:scale(1.0);
     height: 87px; padding-left: 15px;
     background: rgba(0,0,0,0.4);
   margin-left: -30px;
@@ -12926,7 +12926,7 @@ and it is currently  <div class="datetime">
         <a class="toggle2" href="#WaveMenu">{text:BlogName}</a>
 </p>
 
-
+ 
 
 
 <div class="WaveMenu" id="WaveMenu">
