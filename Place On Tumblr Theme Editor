@@ -4987,7 +4987,7 @@ font-family: Spartan;
         .animecover:hover {left: 0;
     top: 0;
         transform: scale(.90);
-     background: url(https://kbimages1-a.akamaihd.net/ac20f94b-4dd3-4b06-8244-f5561959632b/353/569/90/False/i-ve-been-killing-slimes-for-300-years-and-maxed-out-my-level-vol-4.jpg) ;
+     background: url(https://i.imgur.com/A3OiIUX.png) ;
     border-radius:15px;
     margin-left: 60px;
      box-shadow: 0px 1px 10px 1px rgb(0,0,0,30%);
@@ -14571,7 +14571,7 @@ id="youtube-audio">
         
         
          <div id="animecover" class="animecover"></div>
-                <div id="animetitle" class="animetitle"><a href="https://www.crunchyroll.com/ive-been-killing-slimes-for-300-years-and-maxed-out-my-level">I've Been Killing Slimes for 300 Years</a></div>
+                <div id="animetitle" class="animetitle"><a href="https://www.crunchyroll.com/ive-been-killing-slimes-for-300-years-and-maxed-out-my-level">SPY X FAMILY</a></div>
         
         <div id="animecover2" class="animecover2"></div>
         <div id="animetitle2" class="animetitle2"><a href="https://www.crunchyroll.com/fategrand-order-absolute-demonic-front-babylonia">Fate/Grand Order Absolute Demonic Front: Babylonia</a></div>
