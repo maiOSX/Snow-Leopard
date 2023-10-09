@@ -5605,7 +5605,7 @@ font-family: Spartan;
                                               
                                  }
                                  
-                                                 @media screen and (min-width:1245px) { .search3 {  margin-top: 136px ;}
+                                                 @media screen and (min-width:1245px) { .search3 {  margin-top: 154px ;}
                                           .fig1mobile {height:4px !important;}
                                                .fig1 {height:0px !important; } 
                                                 #posts {border-top:1px solid rgba(0,0,0,0.0) !important;}
@@ -7831,7 +7831,7 @@ margin-right:5px;
      .search2pad {padding:0px;}
      .search3 {    
               height: 27px !important;
-    margin-top: 136px !important;
+    margin-top: 154px !important;
 
      }
     .search2 {    
