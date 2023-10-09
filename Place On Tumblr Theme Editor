@@ -1469,7 +1469,7 @@ border-radius:15px;
 }
         /*THIS CHANGES THE MOBILE POSTS */
         .post {
-             margin-left:-2px; 
+             margin-left:-3px; 
 			min-width: 456px;
 			max-width: 460px; 	border:1px solid {color:postsaborder};
 			width:456px;  
@@ -5600,10 +5600,12 @@ font-family: Spartan;
                                           .fig1mobile {height:12px !important;}
                                                .fig1 {height:0px !important; } 
                                                #posts {border-top:1px solid rgba(0,0,0,0.0) !important;}
+                                               
+                                               .search3 {    margin-top: 89px;}
                                               
                                  }
                                  
-                                                 @media screen and (min-width:1245px) {
+                                                 @media screen and (min-width:1245px) { .search3 {  margin-top: 136px ;}
                                           .fig1mobile {height:4px !important;}
                                                .fig1 {height:0px !important; } 
                                                 #posts {border-top:1px solid rgba(0,0,0,0.0) !important;}
@@ -7829,7 +7831,7 @@ margin-right:5px;
      .search2pad {padding:0px;}
      .search3 {    
               height: 27px !important;
-    margin-top: 119px !important;
+    margin-top: 136px !important;
 
      }
     .search2 {    
@@ -13456,7 +13458,7 @@ and it is currently  <div class="datetime">
     <form action="/search" method="get" id="search-form">
     <input class="search3" type="text" placeholder="🐇 Search Mai" name="q" value="{SearchQuery}" style="
        border-radius: 150px;
-    text-align: center; margin-top: 136px !important;
+    text-align: center; 
     opacity: 90%; width: 186px;
     font-family: Quicksand; height: 30px;
        border: 1px solid rgba(255,255,255,0.6);
@@ -14368,7 +14370,7 @@ Unknown
     <form action="/search" method="get" id="search-form">
     <input class="search3" type="text" placeholder="🐇 Search Mai" name="q" value="{SearchQuery}" style="
        border-radius: 150px;
-    text-align: center; margin-top: 106px !important;
+    text-align: center; 
     opacity: 90%; width: 186px;
     font-family: Quicksand;
        border: 1px solid rgba(255,255,255,0.6);
