@@ -1469,7 +1469,7 @@ border-radius:15px;
 }
         /*THIS CHANGES THE MOBILE POSTS */
         .post {
-             margin-left:-3px; 
+             margin-left:-2px; 
 			min-width: 456px;
 			max-width: 460px; 	border:1px solid {color:postsaborder};
 			width:456px;  
@@ -5630,7 +5630,7 @@ font-family: Spartan;
 }
 .fig1mobiletext {
    	border:1px solid {color:postsaborder};
-  
+  background-size:unset !important;
     background-image: url('{image:StatusBackground}');
    
     
@@ -5645,7 +5645,7 @@ font-family: Spartan;
     margin-top: 12px;
     background-size: contain;
     background-position-x: center;
-    background-size: 122%;
+    background-size: 111% !important;
     background-repeat-x: no-repeat;
   
     width: 416px;
@@ -13456,7 +13456,7 @@ and it is currently  <div class="datetime">
     <form action="/search" method="get" id="search-form">
     <input class="search3" type="text" placeholder="🐇 Search Mai" name="q" value="{SearchQuery}" style="
        border-radius: 150px;
-    text-align: center; margin-top: 106px !important;
+    text-align: center; margin-top: 136px !important;
     opacity: 90%; width: 186px;
     font-family: Quicksand; height: 30px;
        border: 1px solid rgba(255,255,255,0.6);
