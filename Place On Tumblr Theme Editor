@@ -12345,6 +12345,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#btn_id8").click(function(){  
           $(".hellouser").css({'display':'none'});
+            $(".hellob").css({'display':'block','animation':'fadeInX 900000000s'});
           $(".hellofade").css({'display': 'block','animation':'none'
           });
            $(".qdialogpage").css({'display': 'none','pointer-events':'none'});
