@@ -10,6 +10,8 @@
                                                      
                         //for youtube effects toggle blur on main or rewrite the code so that posts are above the effect//  
         -->            
+        
+        
  
         <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mdbassit/Coloris@latest/dist/coloris.min.css"/>
@@ -14693,15 +14695,15 @@ id="youtube-audio">
     if (hrs < 5) 
         greet = 'Its sleepy hours, what are you doing up?';  
     else if (hrs >= 5 && hrs <= 12)
-        greet = 'Good Morning Reaper,';
-    else if (hrs >= 12 && hrs <= 17)
         greet = 'Good Afternoon Reaper,';
+    else if (hrs >= 12 && hrs <= 17)
+        greet = 'Good Evening Reaper,';
         
     else if (hrs >= 17 && hrs <= 24)
         greet = 'Goodnight Reaper,';
         
     else if (hrs >= 22 && hrs <= 24)
-        greet = 'Goodnight Reaper,';
+        greet = 'Still Awake?';
         
  
     document.getElementById('lblGreetings').innerHTML =
