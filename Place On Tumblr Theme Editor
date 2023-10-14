@@ -1,8 +1,8 @@
 <html>
     <head> 
-        <!--            
+        <!--             
         
-         //*  <script type="text/javascript">
+         //*  <script type="text/javascript"> 
    window.location.replace("http://twitter.com/archillect");  
    </script> *//
              
@@ -4874,7 +4874,7 @@ font-family: Spartan;
     .animecover {left: 0;
     top: 0;
         transform: scale(.50);
-     background: url(https://kbimages1-a.akamaihd.net/ac20f94b-4dd3-4b06-8244-f5561959632b/353/569/90/False/i-ve-been-killing-slimes-for-300-years-and-maxed-out-my-level-vol-4.jpg) ;
+     background: url(https://i.imgur.com/A3OiIUX.png) ;
     border-radius:15px;
     margin-left: 60px;
      box-shadow: 0px 1px 10px 1px rgb(0,0,0,30%);
@@ -7182,7 +7182,27 @@ margin-left:10px;
     z-index: 9999;
        top: 3%;
     position: relative;
-    margin-right: 10px;
+    margin-right: 50px;
+    
+    }
+    
+        .resizer8 {  background:url('https://i.imgur.com/gkoj4nq.png'); 
+  display:block;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 2px 40px 1px rgb(0 0 0 / 30%);
+    -webkit-backdrop-filter: blur(5px);
+    width: 10px;
+    background-size: contain;
+    height: 30px;
+    width:30px;
+   border:0px solid #000;
+    right: 0;
+    z-index: 9999;
+       top: 3%;
+    position: relative;
+        margin-right: -36px;
+    margin-top: -31px;
+}
     
     }
     
@@ -12317,6 +12337,41 @@ $(document).ready(function(){
      });
 });  
 </script>
+
+ <script type="text/javascript">
+$(document).ready(function(){
+    $("#btn_id8").click(function(){  
+          $(".hellouser").css({'display':'none'});
+          $(".hellofade").css({'display': 'block','animation':'none'
+          });
+           $(".qdialogpage").css({'display': 'none','pointer-events':'none'});
+           $(".q").css({'animation': 'slide-top 1000s','opacity':'100','pointer-events':'all'});
+             $(".main").css({'backdrop-filter': 'blur(6px)',
+               '-webkit-backdrop-filter': 'blur(6px)',
+               'background':'rgba(0,0,0,0.0)'});
+        $(".searchcontainer2").css({'backdrop-filter': 'blur(6px)',
+               '-webkit-backdrop-filter': 'blur(6px)',
+               'background':'rgba(0,0,0,0.0)'});
+        $(".sidebar").css({'backdrop-filter': 'blur(6px)',
+               '-webkit-backdrop-filter': 'blur(6px)',
+               'background':'rgba(0,0,0,0.0)'});
+        $(".icon-bar").css({'backdrop-filter': 'blur(6px)',
+               '-webkit-backdrop-filter': 'blur(6px)',
+               'background':'rgba(0,0,0,0.0)'});
+                $(".hellob").css({'display': 'none'}); 
+        $(".youtubeeffect").css({'display': 'block'}); 
+        $(".orbstop").css({'display': 'block'}); 
+         $(".hellob").css({'display': 'block'}); 
+           {block:IfShowYouTubeBackground}
+        $(".youtubebackground").css({'block': 'none','opacity':'100'});
+           $(".hellob").css({'display': 'block','z-index':'99'}); 
+           {/block:IfShowYouTubeBackground}
+        $(".helloc").css({'display': 'block','opacity':'0'});
+   
+     });
+});  
+</script>
+
  <script type="text/javascript">
 $(document).ready(function(){
     $("#btn_id7").click(function(){
@@ -12866,7 +12921,7 @@ and it is currently  <div class="datetime">
  <div id="qa" class="qa" style="
     margin-top: 50px;
 ">
- <a href="https://play.geforcenow.com/mall/#/layout/games">Game</a>, <a href="https://maiosx.com/search/music">Listen to music</a>, <a href="https://m.manganelo.com/genre-all/2">read manga</a>, <a href="https://www.crunchyroll.com/">watch anime</a>, <a href="https://twitter.com/archillect">browse archillect</a>,<a href="https://twitter.com/picturesfoider"> look at picturesfolder</a>,<a href="https://maiosx.com/search/movies"> see movie trailers</a>, <a href="https://maiosx.com/search/anime">look at anime art</a>, <a href="https://twitter.com/i/lists/1455666589530038276">see the good sports list</a>, <a href="https://twitter.com/i/lists/1671855418920796160">see the bad sports list</a>, <a href="https://www.youtube.com/feed/subscriptions">watch youtube</a>, <a href="https://www.twitch.tv/">see livestreams</a>, <a href="https://www.discord.com/app">chat</a>,<a href="https://www.joyland.ai"> talk to AI</a>,<a href="https://www.google.com"> make a search</a>, or<a href="https://discord.com/channels/1002292111942635562/"> diffuse</a>...</p>
+ <a href="https://play.geforcenow.com/mall/#/layout/games">Game</a>, <a href="https://maiosx.com/search/music">Listen to music</a>, <a href="https://m.manganelo.com/genre-all/2">read manga</a>, <a href="https://www.crunchyroll.com/">watch anime</a>, <a href="https://twitter.com/archillect">browse archillect</a>,<a href="https://twitter.com/picturesfoider"> look at picturesfolder</a>,<a href="https://maiosx.com/search/movies"> see movie trailers</a>, <a href="https://maiosx.com/search/anime">look at anime art</a>, <a href="https://twitter.com/maiosxdev/lists">view the lists, <a href="https://www.youtube.com/feed/subscriptions">watch youtube</a>, <a href="https://www.twitch.tv/">see livestreams</a>, <a href="https://www.discord.com/app">chat</a>,<a href="https://www.joyland.ai"> talk to AI</a>,<a href="https://www.google.com"> make a search</a>, or<a href="https://discord.com/channels/1002292111942635562/"> diffuse</a>...</p>
  </div>
  <div id="divx2" class="divx2">
     <img class="bottom" src="https://i.imgur.com/n5w6LdS.png">
@@ -13862,6 +13917,7 @@ MMXVII-MMXXIII
         	   </div>
   <div id="sidebuttons" class="sidebuttons">
       <button type="button" id="btn_id6" class="resizer6"></button>
+       <button type="button" id="btn_id8" class="resizer8"></button>
           <button type="button" id="btn_id7" class="resizer7"></button>
          <div id="class1" class="class1"></div>
          <div id="class2" class="class2"></div>    
