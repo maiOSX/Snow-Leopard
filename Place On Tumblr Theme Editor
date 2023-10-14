@@ -39,6 +39,7 @@
         <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
         {block:Hidden}
          <meta name="text:blogname" content=""/>
+         <meta name="text:blogname2" content=""/>
         <meta name="text:YoutubeBackground" content=""/>
         <meta name="text:version" content=""/>
         <meta name="text:mversion" content=""/>
@@ -14695,12 +14696,12 @@ id="youtube-audio">
     if (hrs < 5) 
         greet = 'Its sleepy hours, what are you doing up?';  
     else if (hrs >= 5 && hrs <= 12)
-        greet = 'Good Afternoon Reaper,';
+        greet = 'Good Afternoon {text:BlogName2},';
     else if (hrs >= 12 && hrs <= 17)
-        greet = 'Good Evening Reaper,';
+        greet = 'Good Evening {text:BlogName2},';
         
     else if (hrs >= 17 && hrs <= 24)
-        greet = 'Goodnight Reaper,';
+        greet = 'Goodnight {text:BlogName2},';
         
     else if (hrs >= 22 && hrs <= 24)
         greet = 'Still Awake?';
