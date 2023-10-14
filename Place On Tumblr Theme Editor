@@ -8755,7 +8755,7 @@ border:1px solid rgba(255,255,255,0.9); }
   }
 }
 
-    .romok {display:block;  width:800px; color:white;font-family:'Quicksand'; font-weight:700;margin-top:200px; margin-left:200px;font-size:70px;  animation-name:fadeInfromblack;
+    .romok {display:block;  width:1080px; color:white;font-family:'Quicksand'; font-weight:700;margin-top:200px; margin-left:200px;font-size:70px;  animation-name:fadeInfromblack;
     animation-duration:4s;  left: 500px;
   -webkit-animation: slideIn 4s forwards;
   -moz-animation: slideIn 4s  forwards;
