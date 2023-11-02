@@ -119,6 +119,7 @@
         <meta name="if:GifBG" content=""/>
         <meta name="if:GifBGRoundedCorners" content=""/>
        	<meta name="if:TurnOnSidebarBlur" content="">
+       	       	<meta name="if:DefaultsOn" content="1">
        	<meta name="if:TurnOnBlurDesktop" content="">
        	<meta name="if:TurnOnBlurMobile" content="">
        	<meta name="if:SidebarOnlyOneColorOn" content="">
@@ -5637,19 +5638,21 @@ font-family: Spartan;
    	border:1px solid {color:postsaborder};
   background-size:unset !important;
     background-image: url('{image:StatusBackground}');
-   
-    
+         {block:IfDefaultsOn}
+      background-image: url('https://i.imgur.com/ZCWwsPy.png');
+         {/block:IfDefaultsOn}
     font-family: 'Quicksand';
   
     font-size: 34px;
     text-shadow: 0px 2px 4px rgba(0,0,0,0.9);
     padding: 20px;
   
-    height: 716px;
+    height: 717px;
     border-radius: 15px;
     margin-top: 12px;
     background-size: contain;
     background-position-x: center;
+    background-position-y:-1px;
     background-size: 111% !important;
     background-repeat-x: no-repeat;
   
@@ -6559,7 +6562,9 @@ margin-right:5px;
         .hello { display:block; width:100%; height:100%; background:black; margin: 0 auto; top:0; left: 0;      opacity: 1.0;/*background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(3,3,15,1) 50%, rgba(5,21,30,1) 100%);*/ margin-top:-17px; position:fixed; z-index:-90000; padding-bottom:17px;
     pointer-events:none; background-repeat:no-repeat;
    background:url('{image:ipadwallpaper}'); 
-
+       {block:IfDefaultsOn}
+      background-image: url('https://i.imgur.com/hUB1kmU.png');
+         {/block:IfDefaultsOn}
         }
     
          .follow-teaser { display:none;margin-top:-52px !important;}
@@ -7454,6 +7459,9 @@ margin-top: -258px;
         background-size:cover !important;
            
         background:url('{image:SearchWallpaper}'); 
+          {block:IfDefaultsOn}
+      background-image: url('https://i.imgur.com/gr6uUXc.jpg');
+         {/block:IfDefaultsOn}
       /*   {block:IfTurnOnBlurMobile}  background-size:cover;
                 backdrop-filter:blur(5px);
                 -webkit-backdrop-filter:blur(5px);
@@ -9059,26 +9067,34 @@ border:1px solid rgba(255,255,255,0.9); }
     }
   
     
-        .hellouser {display:block;width:50%; height:1079px; background-size:contain; margin: 0 auto; top:0; left:25%;    opacity: 1.0;/*background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(3,3,15,1) 50%, rgba(5,21,30,1) 100%);*/  position:absolute;     z-index: 99; background-size: 100% !important;  animation: slide-top 140s cubic-bezier(0.785, 0.135, 0.150, 0.860) reverse forwards;
+        .hellouser {display:block;width:100%; height:1079px; background-size:contain; margin: 0 auto; top:0; left:25%;    opacity: 1.0;/*background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(3,3,15,1) 50%, rgba(5,21,30,1) 100%);*/  position:absolute;     z-index: 99; background-size: 100% !important;  animation: slide-top 140s cubic-bezier(0.785, 0.135, 0.150, 0.860) reverse forwards;
     pointer-events:none; background-repeat:no-repeat;
-   background:url('{image:Wallpaper}');}
+   background:url('{image:Wallpaper}');
+               {block:IfDefaultsOn}
+      background-image: url('https://i.imgur.com/EL5Ucz0.jpgg');
+         {/block:IfDefaultsOn}
+        }
     
     .hellobnoblur {display:block;background:rgba(0,0,0,{text:PortraitModeBlurDarkAmount}); width:100%;height:100%;z-index:1; position:absolute;    
-  
+   {block:IfDefaultsOn}
+      background-image: url('https://i.imgur.com/EL5Ucz0.jpgg');
+         {/block:IfDefaultsOn}
          background-image: url('{image:Wallpaper}');
     }   
     
-    
+       .helloc {display:block;background: linear-gradient(180deg, rgba(0,0,255,0.3309698879551821) 0%, rgba(0,0,0,0.35057773109243695) 100%);width:100%; position:fixed;opacity:50%; height: 1063px; 
+    z-index: 99;   margin-top:-16px;     width: 100% !important;}
 
    /*move if portraitdesktopbg line here to add gradient again */
         {/block:IfPortraitDesktopBG}
-      .helloc {display:block;background: linear-gradient(180deg, rgba(0,0,255,0.3309698879551821) 0%, rgba(0,0,0,0.35057773109243695) 100%);width:100%; position:fixed;opacity:50%; height: 101.6%; 
-    z-index: 99;   margin-top:-16px;}
+   
     
   
       
       
-     .hello { display:block; width:100%; height:100%;  margin: 0 auto; top:0; left: 0;  background-size:cover;    opacity: 1.0 !important; background-image: url('{image:Wallpaper}'); position:fixed; z-index:-90000;
+     .hello { display:block; width:100%; height:100%;  margin: 0 auto; top:0; left: 0;  background-size:cover;    opacity: 1.0 !important; background-image: url('{image:Wallpaper}'); position:fixed; z-index:-90000;  {block:IfDefaultsOn}
+      background-image: url('https://i.imgur.com/EL5Ucz0.jpgg');
+         {/block:IfDefaultsOn}
     pointer-events:none;  -webkit-filter: saturate(1.4); background-repeat:no-repeat;  background-position-y: 50%;
 
    z-index:9;
@@ -9839,7 +9855,9 @@ input.clr-color {font-family:Quicksand;}
     .icon-bar2 {display:none; } .icon-bar-mask {display:none;  } 
    
    .m_icon {display:none; }
-        .hellouser {opacity:0%;width:50%; height:1079px; background-size:contain; margin: 0 auto; top:0; left:25%;    opacity: 1.0;/*background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(3,3,15,1) 50%, rgba(5,21,30,1) 100%);*/  position:absolute;     z-index: 99; background-size: 100% !important;  animation: slide-top 140s cubic-bezier(0.785, 0.135, 0.150, 0.860) reverse forwards;
+        .hellouser {opacity:0%;width:82%; height:1079px; background-size:contain; margin: 0 auto; top:0; left:25%;    opacity: 1.0;/*background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(3,3,15,1) 50%, rgba(5,21,30,1) 100%);*/  position:absolute;     z-index: 99; background-size: 100% !important;  animation: slide-top 140s cubic-bezier(0.785, 0.135, 0.150, 0.860) reverse forwards;  {block:IfDefaultsOn}
+      background-image: url('https://i.imgur.com/EL5Ucz0.jpgg');
+         {/block:IfDefaultsOn}
     pointer-events:none; background-repeat:no-repeat;
    background:url('{image:Wallpaper}');}
     
@@ -9853,7 +9871,7 @@ input.clr-color {font-family:Quicksand;}
     border-radius:15px;
       
     {/block:IfGifBGRoundedCorners}
-    width: {text:GifWidth};
+    width: {text:GifWidth} !important;
     height: {text:GifHeight};
     transform:scale({text:GifScaleTransform});
     background-size: contain;
@@ -9863,7 +9881,9 @@ input.clr-color {font-family:Quicksand;}
     opacity: 1.0;
     /* background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(3,3,15,1) 50%, rgba(5,21,30,1) 100%); */
     
-    position: absolute;
+    position: absolute;  {block:IfDefaultsOn}
+      background-image: url('https://i.imgur.com/EL5Ucz0.jpgg');
+         {/block:IfDefaultsOn}
         z-index: 99;
     /* padding-bottom: 17px; */
     /* background-size: 100% !important; */
