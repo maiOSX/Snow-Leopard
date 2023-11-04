@@ -5,7 +5,7 @@
          //*  <script type="text/javascript"> 
    window.location.replace("http://twitter.com/archillect");  
    </script> *//
-              
+               
                                Mai OS X                    
                                                      
                         //for youtube effects toggle blur on main or rewrite the code so that posts are above the effect//  
@@ -119,7 +119,9 @@
         <meta name="if:GifBG" content=""/>
         <meta name="if:GifBGRoundedCorners" content=""/>
        	<meta name="if:TurnOnSidebarBlur" content="">
-       	       	<meta name="if:DefaultsOn" content="1">
+        <meta name="if:DefaultsOn" content="1">
+        <meta name="if:DockDefaultsOn" content="">
+        <meta name="if:DockDefaultsOff" content="">
        	<meta name="if:TurnOnBlurDesktop" content="">
        	<meta name="if:TurnOnBlurMobile" content="">
        	<meta name="if:SidebarOnlyOneColorOn" content="">
@@ -9062,10 +9064,10 @@ border:1px solid rgba(255,255,255,0.9); }
             position: fixed; 
       border: 1px solid rgba(255,255,255,0.8);
     border-radius: 30px;
-                background-size: 353px 216px;
+                background-size: 353px 216px; 
     background-repeat: no-repeat;
     }
-  
+   
     
         .hellouser {display:block;width:100%; height:1079px; background-size:contain; margin: 0 auto; top:0; left:25%;    opacity: 1.0;/*background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(3,3,15,1) 50%, rgba(5,21,30,1) 100%);*/  position:absolute;     z-index: 99; background-size: 100% !important;  animation: slide-top 140s cubic-bezier(0.785, 0.135, 0.150, 0.860) reverse forwards;
     pointer-events:none; background-repeat:no-repeat;
@@ -9081,13 +9083,11 @@ border:1px solid rgba(255,255,255,0.9); }
          {/block:IfDefaultsOn}
          background-image: url('{image:Wallpaper}');
     }   
-    
-       .helloc {display:block;background: linear-gradient(180deg, rgba(0,0,255,0.3309698879551821) 0%, rgba(0,0,0,0.35057773109243695) 100%);width:100%; position:fixed;opacity:50%; height: 1063px; 
-    z-index: 99;   margin-top:-16px;     width: 100% !important;}
 
    /*move if portraitdesktopbg line here to add gradient again */
         {/block:IfPortraitDesktopBG}
-   
+    .helloc {display:block;background: linear-gradient(180deg, rgba(0,0,255,0.3309698879551821) 0%, rgba(0,0,0,0.35057773109243695) 100%);width:100%; position:fixed;opacity:50%; height: 101.6%; 
+    z-index: 99;   margin-top:-16px;}
     
   
       
@@ -15379,43 +15379,76 @@ Your browser does not support inline frames or is currently configured not to di
     left: 0%;position: fixed;
 ">
 
-          <div id="iconsholder" class="iconsholder">
-            <div id="icon1" class="icon">
-                <a href="{text:DOCKURL1}"  onclick="window.open('{text:DOCKURL1}', 'newwindow2', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL1Image}">️</a> 
-            </div>
-            <div id="icon2" class="icon">
-                     <a href="{text:DOCKURL2}"  onclick="window.open('{text:URL2}', 'newwindow3', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL2Image}">️</a> </div>
-            <div id="icon3" class="icon">
-                     <a href="{text:DOCKDOCKURL3}"  onclick="window.open('{text:DOCKURL3}', 'newwindow2', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL3Image}">️</a> </div>  
+<div id="iconsholder" class="iconsholder">
+
+<div id="icon1" class="icon">
+<a href="{block:IfDockDefaultsOff}{text:DOCKURL1}{/block:IfDockDefaultsOff}"  onclick="window.open('{block:IfDockDefaultsOff}{text:DOCKURL1}{/block:IfDockDefaultsOff}{block:IfDockDefaultsOn}https://www.tumblr.com/new{/block:IfDockDefaultsOn}', 'newwindow1', 'width=917,height=832'); return false;"><img alt="" src="{block:IfDockDefaultsOn}https://i.imgur.com/XMya7sX.png{/block:IfDockDefaultsOn}{block:IfDockDefaultsOff}{image:DOCKURL1Image}{block:IfDockDefaultsOff}">️</a> 
+</div>
+
+
+<div id="icon2" class="icon">
+<a href="{block:IfDockDefaultsOff}{text:DOCKURL2}{/block:IfDockDefaultsOff}"  onclick="window.open('{block:IfDockDefaultsOff}{text:DOCKURL2}{/block:IfDockDefaultsOff}{block:IfDockDefaultsOn}https://www.youtube.com{/block:IfDockDefaultsOn}', 'newwindow2', 'width=917,height=832'); return false;"><img alt="" src="{block:IfDockDefaultsOn}https://media.giphy.com/media/LqCEcO42w8F2n1fZ7S/giphy.gif{/block:IfDockDefaultsOn}{block:IfDockDefaultsOff}{image:DOCKURL2Image}{block:IfDockDefaultsOff}">️</a> 
+</div>
+         
+         
+         
+<div id="icon3" class="icon">
+<a href="{block:IfDockDefaultsOff}{text:DOCKURL3}{/block:IfDockDefaultsOff}"  onclick="window.open('{block:IfDockDefaultsOff}{text:DOCKURL3}{/block:IfDockDefaultsOff}{block:IfDockDefaultsOn}https://www.x.com{/block:IfDockDefaultsOn}', 'newwindow3', 'width=917,height=832'); return false;"><img alt="" src="{block:IfDockDefaultsOn}https://i.imgur.com/Qpit3O3.png{/block:IfDockDefaultsOn}{block:IfDockDefaultsOff}{image:DOCKURL3Image}{block:IfDockDefaultsOff}">️</a> 
+</div>  
+
                      
-                         <div id="icon3" class="icon">
-                     <a href="{text:DOCKURL4}"  onclick="window.open('{text:DOCKURL4}', 'newwindow4', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL4Image}">️</a> </div>  
+<div id="icon4" class="icon">
+<a href="{block:IfDockDefaultsOff}{text:DOCKURL4}{/block:IfDockDefaultsOff}"  onclick="window.open('{block:IfDockDefaultsOff}{text:DOCKURL4}{/block:IfDockDefaultsOff}{block:IfDockDefaultsOn}https://www.spotify.com{/block:IfDockDefaultsOn}', 'newwindow4', 'width=917,height=832'); return false;"><img alt="" src="{block:IfDockDefaultsOn}https://i.imgur.com/3cFxFXf.png{/block:IfDockDefaultsOn}{block:IfDockDefaultsOff}{image:DOCKURL4Image}{block:IfDockDefaultsOff}">️</a> 
+</div>   
+           
                      
-                         <div id="icon3" class="icon">
-                     <a href="{text:DOCKURL5}"  onclick="window.open('{text:DOCKURL5}', 'newwindow5', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL5Image}">️</a> </div>  
+<div id="icon5" class="icon">
+<a href="{block:IfDockDefaultsOff}{text:DOCKURL5}{/block:IfDockDefaultsOff}"  onclick="window.open('{block:IfDockDefaultsOff}{text:DOCKURL5}{/block:IfDockDefaultsOff}{block:IfDockDefaultsOn}https://www.canva.com{/block:IfDockDefaultsOn}', 'newwindow5', 'width=917,height=832'); return false;"><img alt="" src="{block:IfDockDefaultsOn}https://i.imgur.com/C1zMX5E.jpg{/block:IfDockDefaultsOn}{block:IfDockDefaultsOff}{image:DOCKURL5Image}{block:IfDockDefaultsOff}">️</a> 
+</div>  
                      
-                         <div id="icon3" class="icon">
-                     <a href="{text:DOCKURL6}"  onclick="window.open('{text:DOCKURL6}', 'newwindow6', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL6Image}">️</a> </div>  
+<div id="icon6" class="icon">
+<a href="{block:IfDockDefaultsOff}{text:DOCKURL6}{/block:IfDockDefaultsOff}"  onclick="window.open('{block:IfDockDefaultsOff}{text:DOCKURL6}{/block:IfDockDefaultsOff}{block:IfDockDefaultsOn}https://www.pinterest.com{/block:IfDockDefaultsOn}', 'newwindow6', 'width=917,height=832'); return false;"><img alt="" src="{block:IfDockDefaultsOn}https://i.imgur.com/6koBQgj.png{/block:IfDockDefaultsOn}{block:IfDockDefaultsOff}{image:DOCKURL6Image}{block:IfDockDefaultsOff}">️</a> 
+</div>  
+                      
                      
-                         <div id="icon3" class="icon">
-                     <a href="{text:DOCKURL7}"  onclick="window.open('{text:DOCKURL7}', 'newwindow7', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL7Image}">️</a> </div>  
-                     
-                         <div id="icon3" class="icon">
-                     <a href="{text:DOCKURL8}"  onclick="window.open('{text:DOCKURL8}', 'newwindow8', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL8Image}">️</a> </div>      <div id="icon3" class="icon">
-                     <a href="{text:DOCKURL9}"  onclick="window.open('{text:DOCKURL9}', 'newwindow9', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL9Image}">️</a> </div>      <div id="icon3" class="icon">
-                     <a href="{text:DOCKURL10}"  onclick="window.open('{text:DOCKURL10}', 'newwindow10', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL10Image}">️</a> </div>      <div id="icon3" class="icon">
-                     <a href="{text:DOCKURL11}"  onclick="window.open('{text:DOCKURL11}', 'newwindow11', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL11Image}">️</a> </div>      <div id="icon3" class="icon">
-                     <a href="{text:DOCKURL12}"  onclick="window.open('{text:DOCKURL12}', 'newwindow12', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL12Image}">️</a> </div>      <div id="icon3" class="icon">
-                     <a href="{text:DOCKURL13}"  onclick="window.open('{text:DOCKURL13}', 'newwindow13', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL13Image}">️</a> </div>      <div id="icon3" class="icon">
-                     <a href="{text:DOCKURL14}"  onclick="window.open('{text:DOCKURL14}', 'newwindow14', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL14Image}">️</a> </div>      <div id="icon3" class="icon">
-                     <a href="{text:DOCKURL15}"  onclick="window.open('{text:DOCKURL15}', 'newwindow15', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL15Image}">️</a> </div>  
-                     
-                         <div id="icon3" class="icon">
-                     <a href="{text:DOCKURL16}"  onclick="window.open('{text:DOCKURL16}', 'newwindow16', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL16Image}">️</a> </div>      <div id="icon3" class="icon">
-                     <a href="{text:DOCKURL17}"  onclick="window.open('{text:DOCKURL17}', 'newwindow17', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL17Image}">️</a> </div>      <div id="icon3" class="icon">
-                     <a href="{text:DOCKURL18}"  onclick="window.open('{text:DOCKURL18}', 'newwindow18', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL18Image}">️</a> </div>      <div id="icon3" class="icon">
-                     <a href="{text:DOCKURL19}"  onclick="window.open('{text:DOCKURL19}', 'newwindow19', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL19Image}">️</a> </div>      <div id="icon3" class="icon">
-                     <a href="{text:DOCKURL20}"  onclick="window.open('{text:DOCKURL20}', 'newwindow20', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL20Image}">️</a> </div>  
+<div id="icon7" class="icon">
+<a href="{block:IfDockDefaultsOff}{text:DOCKURL7}{/block:IfDockDefaultsOff}"  onclick="window.open('{block:IfDockDefaultsOff}{text:DOCKURL7}{/block:IfDockDefaultsOff}{block:IfDockDefaultsOn}https://www.youtube.com/channel/UC9GtSLeksfK4yuJ_g1lgQbg{/block:IfDockDefaultsOn}', 'newwindow7', 'width=917,height=832'); return false;"><img alt="" src="{block:IfDockDefaultsOn}https://i.imgur.com/DHmPaNh.jpg{/block:IfDockDefaultsOn}{block:IfDockDefaultsOff}{image:DOCKURL7Image}{block:IfDockDefaultsOff}">️</a> 
+</div>  
+
+<div id="icon8" class="icon">
+<a href="{block:IfDockDefaultsOff}{text:DOCKURL8}{/block:IfDockDefaultsOff}"  onclick="window.open('{block:IfDockDefaultsOff}{text:DOCKURL8}{/block:IfDockDefaultsOff}{block:IfDockDefaultsOn}https://twitter.com/PicturesFoIder{/block:IfDockDefaultsOn}', 'newwindow8', 'width=917,height=832'); return false;"><img alt="" src="{block:IfDockDefaultsOn}https://i.imgur.com/NQltkjZ.jpg{/block:IfDockDefaultsOn}{block:IfDockDefaultsOff}{image:DOCKURL8Image}{block:IfDockDefaultsOff}">️</a> 
+</div>  
+                      
+<div id="icon9" class="icon">
+<a href="{block:IfDockDefaultsOff}{text:DOCKURL9}{/block:IfDockDefaultsOff}"  onclick="window.open('{block:IfDockDefaultsOff}{text:DOCKURL9}{/block:IfDockDefaultsOff}{block:IfDockDefaultsOn}https://www.twitch.tv{/block:IfDockDefaultsOn}', 'newwindow9', 'width=917,height=832'); return false;"><img alt="" src="{block:IfDockDefaultsOn}https://i.imgur.com/FwIrPvn.png{/block:IfDockDefaultsOn}{block:IfDockDefaultsOff}{image:DOCKURL9Image}{block:IfDockDefaultsOff}">️</a> 
+</div>                       
+        
+<div id="icon10" class="icon">
+<a href="{block:IfDockDefaultsOff}{text:DOCKURL10}{/block:IfDockDefaultsOff}"  onclick="window.open('{block:IfDockDefaultsOff}{text:DOCKURL10}{/block:IfDockDefaultsOff}{block:IfDockDefaultsOn}https://www.twitter.com/archillect{/block:IfDockDefaultsOn}', 'newwindow10', 'width=917,height=832'); return false;"><img alt="" src="{block:IfDockDefaultsOn}https://i.imgur.com/NonUcey.jpg{/block:IfDockDefaultsOn}{block:IfDockDefaultsOff}{image:DOCKURL10Image}{block:IfDockDefaultsOff}">️</a> 
+</div>       
+
+<div id="icon11" class="icon">
+<a href="{block:IfDockDefaultsOff}{text:DOCKURL11}{/block:IfDockDefaultsOff}"  onclick="window.open('{block:IfDockDefaultsOff}{text:DOCKURL11}{/block:IfDockDefaultsOff}{block:IfDockDefaultsOn}https://www.youtube.com/@DancingshanaVR{/block:IfDockDefaultsOn}', 'newwindow11', 'width=917,height=832'); return false;"><img alt="" src="{block:IfDockDefaultsOn}https://static-cdn.jtvnw.net/jtv_user_pictures/f1a11d37-408d-42aa-ad74-0c336a5cd1ec-profile_image-300x300.png{/block:IfDockDefaultsOn}{block:IfDockDefaultsOff}{image:DOCKURL11Image}{block:IfDockDefaultsOff}">️</a> 
+</div>
+
+
+<div id="icon12" class="icon">
+<a href="{block:IfDockDefaultsOff}{text:DOCKURL12}{/block:IfDockDefaultsOff}"  onclick="window.open('{block:IfDockDefaultsOff}{text:DOCKURL12}{/block:IfDockDefaultsOff}{block:IfDockDefaultsOn}https://twitter.com/miniarchillect{/block:IfDockDefaultsOn}', 'newwindow12', 'width=917,height=832'); return false;"><img alt="" src="{block:IfDockDefaultsOn}https://i.imgur.com/MLarPq9.jpg{/block:IfDockDefaultsOn}{block:IfDockDefaultsOff}{image:DOCKURL12Image}{block:IfDockDefaultsOff}">️</a> 
+</div>
+         
+         
+         
+<div id="icon13" class="icon">
+<a href="{block:IfDockDefaultsOff}{text:DOCKURL3}{/block:IfDockDefaultsOff}"  onclick="window.open('{block:IfDockDefaultsOff}{text:DOCKURL13}{/block:IfDockDefaultsOff}{block:IfDockDefaultsOn}https://www.youtube.com/@SakuraMiko{/block:IfDockDefaultsOn}', 'newwindow13', 'width=917,height=832'); return false;"><img alt="" src="{block:IfDockDefaultsOn}https://i.imgur.com/tdIcUPC.jpg{/block:IfDockDefaultsOn}{block:IfDockDefaultsOff}{image:DOCKURL13Image}{block:IfDockDefaultsOff}">️</a> 
+</div>  
+
+  
+                       
+                           
+                           
+                           
+                           
+                           
                      
                 
                 
