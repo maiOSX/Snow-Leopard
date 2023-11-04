@@ -178,7 +178,7 @@
         <meta name="if:Logo2" content="">
         <meta name="if:Show Title" content="1">
         <meta name="if:ShowDescription" content="">
-        <meta name="if:ShowGreeting" content="">
+        <meta name="if:ShowGreeting" content="1">
         <meta name="if:CompactPosts" content="">
         <meta name="if:Index Photo Captions" content="0">
         <meta name="if:Index Video Captions" content="1">
