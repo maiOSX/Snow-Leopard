@@ -13400,6 +13400,7 @@ and it is currently  <div class="datetime">
             
             {block:IfShowDescription}
             {block:Description}
+            
                 <div class="blog-description">{Description}</div>
             {/block:Description}
             {/block:IfShowDescription}
@@ -13992,9 +13993,7 @@ MMXVII-MMXXIII
            <div id="fig1avatar" class="fig1avatar">
         </div> 
         <div id="fig1mobiletext2" class="fig1mobiletext2">
-       {block:IfShowTitle}
-			<a>{Title}</a>
-			{/block:IfShowTitle}
+     
         </div>
          
 
