@@ -118,17 +118,17 @@
         <meta name="if:PortraitDesktopBG" content=""/>
         <meta name="if:GifBG" content=""/>
         <meta name="if:GifBGRoundedCorners" content=""/>
-       	<meta name="if:TurnOnSidebarBlur" content="">
+       	<meta name="if:TurnOnSidebarBlur" content="1">
         <meta name="if:DefaultsOn" content="1">
-        <meta name="if:DockDefaultsOn" content="">
+        <meta name="if:DockDefaultsOn" content="1">
         <meta name="if:DockDefaultsOff" content="">
-       	<meta name="if:TurnOnBlurDesktop" content="">
-       	<meta name="if:TurnOnBlurMobile" content="">
+       	<meta name="if:TurnOnBlurDesktop" content="1">
+       	<meta name="if:TurnOnBlurMobile" content="1">
        	<meta name="if:SidebarOnlyOneColorOn" content="">
-       	<meta name="if:TurnOnBlurOnMain" content="">
+       	<meta name="if:TurnOnBlurOnMain" content="1">
+       		<meta name="if:ShowSearchBox" content="1"/>
        	<meta name="if:TurnOnSidebarGradient" content="">
        	<meta name="if:ShowMainText" content=""/>
-        <meta name="if:TurnOnBlurOnMain" content="">
         <meta name="if:MainColorOn" content="">
         <meta name="if:MainColorOnMobileSearch" content="">
         <meta name="color:MainColor" content="">
