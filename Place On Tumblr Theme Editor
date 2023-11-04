@@ -6,7 +6,7 @@
    window.location.replace("http://twitter.com/archillect");  
    </script> *//
                
-                               Mai OS X  with defaults on, default dock on                  
+                               Mai OS X                    
                                                      
                         //for youtube effects toggle blur on main or rewrite the code so that posts are above the effect//  
         -->            
@@ -176,7 +176,7 @@
         <meta name="color:SidebarGradientColor2" content="">
         <meta name="if:Show Search Box" content=""> 
         <meta name="if:Logo2" content="">
-        <meta name="if:Show Title" content="1">
+        <meta name="if:ShowTitle" content="1">
         <meta name="if:ShowDescription" content="">
         <meta name="if:ShowGreeting" content="1">
         <meta name="if:CompactPosts" content="">
@@ -12879,9 +12879,8 @@ document.addEventListener('click', function (event) {
         
         
        <div id="topsplashtext" class="topsplashtext"> 
-        {block:IfShowGreeting}<label id="lblGreetings"></label>  {/block:IfShowGreeting}   
-        
- {block:IfShowTitle}       {Title}  {/block:IfShowTitle}
+        {block:IfShowGreeting}<label id="lblGreetings"></label> {/block:IfShowGreeting}   
+    
  
  </div>
  
@@ -13054,7 +13053,7 @@ and it is currently  <div class="datetime">
        letter-spacing:1px;
     text-transform: lowercase;
     font-family: 'Quicksand';
-">from, {text:blogname2}</a2></center>
+">from,  {block:IfShowTitle}       {Title}  {/block:IfShowTitle}</a2></center>
 <br><center>🎤</center></br>
 <center></center>
     
@@ -14730,12 +14729,12 @@ id="youtube-audio">
     if (hrs < 5) 
         greet = 'Its sleepy hours, what are you doing up?';  
     else if (hrs >= 5 && hrs <= 12)
-        greet = 'Good Afternoon {text:BlogName2},';
+        greet = 'Good Afternoon {block:IfShowTitle}{Title}{/block:IfShowTitle},';
     else if (hrs >= 12 && hrs <= 17)
-        greet = 'Good Evening {text:BlogName2},';
+        greet = 'Good Evening {block:IfShowTitle}{Title}{/block:IfShowTitle},';
         
     else if (hrs >= 17 && hrs <= 24)
-        greet = 'Goodnight {text:BlogName2},';
+        greet = 'Goodnight {block:IfShowTitle}{Title}{/block:IfShowTitle},';
         
     else if (hrs >= 22 && hrs <= 24)
         greet = 'Still Awake?';
