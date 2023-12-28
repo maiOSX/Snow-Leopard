@@ -1,7 +1,7 @@
 <html>
     <head> 
         <!--             
-        
+          
          //*  <script type="text/javascript"> 
    window.location.replace("http://twitter.com/archillect");  
    </script> *//
@@ -369,7 +369,7 @@ margin-bottom:10px; box-shadow: 0px 0px 20px 1px rgb(66 245 230/ 100%);}
             .discordweb {position:fixed;
     top: 0; display:none;
     left: 0;
-    background: rgba(100, 90, 235, 0.4);
+  
     width: 16%;
     height: 176px;     z-index: 2;
     position: fixed;
@@ -411,7 +411,7 @@ div.npf-link-block {
 .discordcommunity {position:fixed;
     top: 0; display:none;
     right: 0;
-    background:rgba(100, 90, 235, 0.4);
+
     width: 16%;     z-index: 2;
     position: fixed;
     height: 176px;
@@ -1925,11 +1925,26 @@ border:1px solid rgba(255,255,255,0.4); padding-bottom:13px;
     -webkit-animation: grey 40s ease infinite;margin-left:-1px;
     -moz-animation: grey 40s ease infinite; transition:4s;
     animation: grey 40s ease infinite;  padding-top:0px;}
+     .widget10 {width:384px; height:827px;  border-radius:15px; align:left; margin-top:15px; color:white;-webkit-backdrop-filter: blur(6px);  backdrop-filter: blur(6px); background:rgba(0,0,0,0.3); opacity:100%;
+    background-size: 150% 150%;  box-shadow: 0px 1px 10px 1px rgb(0,0,0,30%);  font-family: Quicksand;
+border:1px solid rgba(255,255,255,0.4); padding-bottom:13px;
+    -webkit-animation: grey 40s ease infinite;margin-left:-1px;
+    -moz-animation: grey 40s ease infinite; transition:4s;
+    animation: grey 40s ease infinite;  padding-top:0px;}
     
        .widget9text  {color:white; text-align:left;
        font-family: Quicksand;
        font-size: 20px;
       height:30px;
+       text-shadow: 0px 2px 4px rgb(0 0 0 / 90%);
+       padding-top:20px;
+       padding-left:15px;
+   }
+   
+       .widget10text  {color:white; text-align:left;
+       font-family: Quicksand;
+       font-size: 20px;
+      height:20px;
        text-shadow: 0px 2px 4px rgb(0 0 0 / 90%);
        padding-top:20px;
        padding-left:15px;
@@ -5066,26 +5081,26 @@ font-family: Spartan;
     
      
         .eventcover3 {left: 0;
-    top: 0; 
-        transform: scale(.2);
-     background: url(https://i.imgur.com/wTGs560.jpeg) ;
-    border-radius:50px;
-   
-     box-shadow: 0px 1px 10px 1px rgb(0,0,0,30%);
-    height:1044px;
-    transition:0.5s;
+    left: 0;
+    top: 0;
+    transform: scale(.2);
+    background: url(https://i.imgur.com/i30cyuF.jpeg);
+    border-radius: 50px;
+    box-shadow: 0px 1px 10px 1px rgb(0,0,0,30%);
+    height: 1000px;
+    transition: 0.5s;
     z-index: 999;
     position: absolute !important;
+    background-position: center;
     color: white;
-   
-    position:absolute;
+    position: absolute;
+    background-size: contain;
     width: 1000px;
-    color:white;
-
+    color: white;
     font-family: Quicksand;
     font-size: 20px;
-    margin-top:474px;
-    margin-left:-352px;
+    margin-top: 499px;
+    margin-left: -352px;
    }
     
     
@@ -5096,19 +5111,20 @@ font-family: Spartan;
          .eventcover3:hover {left: 0;
     top: 0;
         transform: scale(.50);
-     background: url(https://i.imgur.com/wTGs560.jpeg);
+     background: url(https://i.imgur.com/i30cyuF.jpeg);
     border-radius:50px;
   
      box-shadow: 0px 1px 10px 1px rgb(0,0,0,30%);
-    height:1044px;
+    height:1000px;
     z-index: 99999999999999999 !important;
     position: absolute !important;
-    color: white;
+    color: white;background-position:center;
+    background-size:contain;
     display: inline-block;
      z-index: 999;
     width: 1000px;
     color:white;
-  margin-top:300px;
+  margin-top:344px;
     margin-left:-230px;
     font-family: Quicksand;
     font-size: 20px; transition:0.5s;
@@ -6234,13 +6250,13 @@ transition: ease-out 4s;position:relative;z-index:9999;
 }
         .search2 {margin-top: -18px; height:100%; width:100%;
     border-top: 1px solid rgba(255,255,255,0.1);
-    backdrop-filter: blur(5px); background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px); 
     -webkit-backdrop-filter: blur(5px);
         }
         .search2:hover {margin-top: -18px; height:100%; width:100%;
     border-top: 1px solid rgba(255,255,255,0.1);
-    backdrop-filter: blur(5px); background: rgba(0,0,0,0.5);
-    -webkit-backdrop-filter: blur(5px);
+   
+   
         }
      .searchcloud { margin-bottom: 400px;width:fit-content;max-width:100%; max-width:490px; background:rgba(0,0,0,.3);display:inline-flex; padding:10px; position:relative; margin-top:40px;border-radius:15px;z-index:99;height:fit-content; border:1px solid rgba(255,255,255,0.1);     overflow: hidden;  overflow-y:scroll; 
     overflow-x: scroll;}
@@ -7519,7 +7535,7 @@ margin-top: -258px;
 .search2:hover { height: 100%;
     /* margin-top: 119px !important; */
     width: 68%;     padding-bottom: 134px;
-    background: rgba(100, 90, 235, .40);
+    
     margin: 0;
     padding-top: 127px;     padding-bottom: 134px;
     margin-top: -40px !important;}
@@ -7871,7 +7887,7 @@ margin-right:5px;
                 height: 100%;
     /* margin-top: 119px !important; */
     width: 68%;
-    background: rgba(100, 90, 235, .40);
+  
     margin: 0;
        padding-top: 127px;
     margin-top: -40px !important;
@@ -7974,9 +7990,7 @@ margin-right:5px;
     .discordweb {position:absolute;
     top: 0; display:block; z-index:0;
     left: 0; margin-top: -99px;
-    background: -moz-linear-gradient(left, rgba(100, 90, 235, .40) 0%, rgba(0,0,0,0) 100%); 
-background: -webkit-linear-gradient(left, rgba(100, 90, 235, .40) 0%,rgba(0,0,0,0) 100%);
-background: linear-gradient(to left, rgba(100, 90, 235, .40) 0%,rgba(0,0,0,0) 100%);
+   
     width: 16%;
     height: 150%;
 }
@@ -7987,9 +8001,7 @@ background: linear-gradient(to left, rgba(100, 90, 235, .40) 0%,rgba(0,0,0,0) 10
 .discordcommunity {position:absolute;
     top: 0; display:block;
     right: 0; z-index:0; margin-top: -99px;
-   background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(100, 90, 235, .40) 100%); 
-background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(100, 90, 235, .40) 100%);
-background: linear-gradient(to left, rgba(0,0,0,0) 0%,rgba(100, 90, 235, .40) 100%);
+
     width: 16%;
     height: 150%;
 }
@@ -14622,6 +14634,12 @@ id="youtube-audio">
                   <a href=""></a>
                 </div> 
          </div> 
+            <div id="widget10" class="widget10">
+                <div id="widget10text" class="widget10text">
+                     X Feed
+                 </div>
+           <a class="twitter-timeline" data-width="384" data-height="800" data-theme="dark" href="https://twitter.com/maiosxdev?ref_src=twsrc%5Etfw">Tweets by maiosxdev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+         </div> 
     
  </div>
         
@@ -14684,7 +14702,7 @@ id="youtube-audio">
          <div id="eventcover" class="eventcover"></div>
                 <div id="eventtitle" class="eventtitle"><a href="https://www.youtube.com/channel/UCJdoOeD2N8sM_LEREHG6kYQ">Omotea</a></div>
                  <div id="eventcover3" class="eventcover3"></div>
-                <div id="eventtitle3" class="eventtitle3"><a href="https://www.youtube.com/channel/UCdYR5Oyz8Q4g0ZmB4PkTD7g">Uto</a></div>
+                <div id="eventtitle3" class="eventtitle3"><a href="https://twitter.com/dancingshana">Dancing Shana</a></div>
                 
         <div id="eventcover2" class="eventcover2"></div>
                 <div id="eventtitle2" class="eventtitle2"><a href="https://www.youtube.com/channel/UC-hM6YJuNYVAmUWxeIr9FeA">Sakura Miko</a></div>
